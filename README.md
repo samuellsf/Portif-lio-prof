@@ -11,4 +11,4 @@ Portfólio profissional desenvolvido com HTML, CSS e JavaScript.
 ## Objetivo
 Apresentar projetos, certificados e habilidades como desenvolvedor web.
 
-🔗 https://samuellsf.github.io
+🔗 https://samuellsf.github.io/Portif-lio-prof/
