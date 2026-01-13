@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Sistema Escolar",
+    "image": "assets/imagens/img/gestão escolar.png",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/samuellsf",
+    "demo": "https://samuellsf.github.io/Gest-o-Escolar/"
+  },
+  {
+    "title": "Lojinha Virtual Express",
+    "image": "assets/imagens/img/lojinha virtual.png",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/samuellsf/samuellsf.github.io",
+    "demo": "https://samuellsf.github.io/Lojinha-Virtual-Express/"
+  }
+]

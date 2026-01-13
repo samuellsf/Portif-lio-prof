@@ -1,0 +1,23 @@
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  
+ 
+  color: #ffffff;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px; 
+  border-radius: 50%;
+  border: 4px solid #38bdf8;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.hero nav a {
+  margin: 0 12px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+}

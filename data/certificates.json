@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Java Completo",
+    "image": "assets/images/certificates/cert-1.jpg"
+  },
+
+    {
+    "title": "JavaScript Moderno",
+    "image": "assets/images/certificates/cert-2.jpg"
+  },
+
+  {
+    "title": "HTML5 e CSS3",
+    "image": "assets/images/certificates/cert-3.jpg"
+  },
+    {
+        "title": "React.js",
+        "image": "assets/images/certificates/cert-4.jpg"
+    },
+
+    {
+        "title": "Node.js",
+        "image": "assets/images/certificates/cert-5.jpg"
+    },
+    {
+        "title": "TypeScript",
+        "image": "assets/images/certificates/cert-6.jpg"
+    },
+    {
+        "title": "Python para Iniciantes",
+        "image": "assets/images/certificates/cert-7.jpg"
+    },
+
+    {
+        "title": "Banco de Dados com MySQL",
+        "image": "assets/images/certificates/cert-8.jpg"
+    },
+    {
+        "title": "Desenvolvimento Web Completo",
+        "image": "assets/images/certificates/cert-9.jpg"
+    },
+    {
+        "title": "Git e GitHub na Prática",
+        "image": "assets/images/certificates/cert-10.jpg"
+    },
+
+    {
+        "title": "Docker para Desenvolvedores",
+        "image": "assets/images/certificates/cert-11.jpg"
+    },
+    {
+        "title": "Metodologias Ágeis",
+        "image": "assets/images/certificates/cert-12.jpg"
+    },
+    {
+        "title": "Segurança da Informação",
+        "image": "assets/images/certificates/cert-13.jpg"
+    },
+    {
+        "title": "AWS Cloud Practitioner",
+        "image": "assets/images/certificates/cert-14.jpg"
+    },
+    {
+        "title": "DevOps na Prática",
+        "image": "assets/images/certificates/cert-15.jpg"
+    }
+
+]
