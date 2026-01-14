@@ -1,16 +1,67 @@
 [
   {
-    "title": "Sistema Escolar",
+    "title": "SISTEMA-DE-GESTÃO-ESCOLAR EM DESENVOLVIMENTO",
     "image": "assets/imagens/img/gestão escolar.png",
-    "tech": ["HTML", "CSS", "JavaScript"],
+    "tech": ["🔧 Tecnologias","HTML – Estrutura das páginas do sistema", "CSS – Layout, tema e responsividade", "JavaScript – Lógica do sistema, manipulação de dados e interações", "🧠Metodologias / Conceitos","Sistema web front-end","Manipulação de dados no navegador","Organização modular de arquivos","Interface administrativa"],
     "github": "https://github.com/samuellsf",
     "demo": "https://samuellsf.github.io/Gest-o-Escolar/"
   },
   {
-    "title": "Lojinha Virtual Express",
+    "title": "LOJINHA-VIRTUAL-EXPRESS EM DESENVOLVIMENTO",
     "image": "assets/imagens/img/lojinha virtual.png",
-    "tech": ["HTML", "CSS", "JavaScript"],
+    "tech": ["🔧 Tecnologias","HTML – Estrutura da loja", "CSS – Estilização dos produtos e layout", "JavaScript – Carrinho, interações e lógica de compra", "🧠Metodologias / Conceitos","Simulação de e-commerce","Manipulação de DOM para interatividade","Gerenciamento de carrinho de compras","Experiência do usuário (UX)"],
     "github": "https://github.com/samuellsf/samuellsf.github.io",
     "demo": "https://samuellsf.github.io/Lojinha-Virtual-Express/"
+  },
+  
+{
+    "title": "D.J-SALGADOS EM DESENVOLVIMENTO",
+    "image": "assets/imagens/img/d.jsalgados.png",
+    "tech": ["🔧 Tecnologias","HTML – Estrutura institucional", "CSS – Design visual e responsivo", "JavaScript – Interações e navegação", "🧠Metodologias / Conceitos","Site institucional","Design responsivo para dispositivos móveis","Navegação intuitiva","Apresentação comercial"],
+    "github": "https://github.com/samuellsf/samuellsf.github.io",
+    "demo": "https://samuellsf.github.io/D.J-Salgados/"
+  },
+  {
+    "title": "CONVITE-VIRTUAL EM DESENVOLVIMENTO",
+    "image": "assets/imagens/img/Covite-Virtual.png",
+    "tech": ["🔧 Tecnologias", "HTML – Estrutura do convite", "CSS – Design visual moderno", "JavaScript – Animações e interações", "🧠Metodologias / Conceitos","Convite digital interativo","Animações para engajamento","Design moderno e elegante","Facilidade de compartilhamento"],
+    "github": "https://github.com/samuellsf/samuellsf.github.io",
+    "demo": "https://samuellsf.github.io/convite-virtual/"
+  },
+  {
+    "title": "BARBER-BROTHERS EM DESENVOLVIMENTO",
+    "image": "assets/imagens/img/Barber_Brothers.png",
+    "tech": ["🔧 Tecnologias","HTML – Estrutura do site", "CSS – Estilo e identidade visual", "JavaScript – Funcionalidades e interações", "🧠Metodologias / Conceitos","Site para barbearia","Identidade visual forte","Interatividade para usuários","Design responsivo"],
+    "github": "https://github.com/samuellsf/samuellsf.github.io",
+    "demo": "https://samuellsf.github.io/Barber_Brothers/"
+  },
+  {
+    "title": "SITE-PIZZARIA EM DESENVOLVIMENTO",
+    "image": "assets/imagens/img/Site-Pizzaria .png",
+    "tech": ["🔧 Tecnologias","HTML – Estrutura do site", "CSS – Estilização e layout", "JavaScript – Interações, pedidos e lógica do site", "🧠Metodologias / Conceitos","Site para pizzaria","Design atraente e funcional","Manipulação de DOM","Interatividade para pedidos","Experiência do usuário otimizada"],
+    "github": "https://github.com/samuellsf/samuellsf.github.io",
+    "demo": "https://samuellsf.github.io/site-Pizzaria/"
+  },
+  {
+    "title": "PROJETO-ONE-PIECE",
+    "image": "assets/imagens/img/PROJETO-ONE-PIECE.png",
+    "tech": ["🔧 Tecnologias", "HTML – Estrutura temática", "CSS – Estilo visual e animações", "JavaScript – Interações e efeitos", "🧠Metodologias / Conceitos","Site temático de One Piece","Animações para engajamento","Design visual atraente","Interatividade para usuários"],
+    "github": "https://github.com/samuellsf/samuellsf.github.io",
+    "demo": "https://samuellsf.github.io/PROJETO-ONE-PIECE-FINAL/"
+  },
+  {
+    "title": "X-MEN-MAIN",
+    "image": "assets/imagens/img/X-Men-Main.png",
+    "tech": ["🔧 Tecnologias","HTML – Estrutura da aplicação", "CSS – Design e efeitos visuais", "JavaScript – Interações e lógica","Projeto temático", "Manipulação de DOM", "Interface interativa","Design responsivo"],
+    "github": "https://github.com/samuellsf/samuellsf.github.io",
+    "demo": "https://samuellsf.github.io/X-MEN-MAIN/"
+  },
+  {
+    "title": "SCORPIO-TECH",
+    "image": "assets/imagens/img/Scorpio.png",
+    "tech": ["🔧 Tecnologias","HTML – Estrutura do site", "CSS – Layout e identidade visual", "JavaScript – Funcionalidades e interações", "🧠Metodologias / Conceitos","Site corporativo","Identidade visual forte","Interatividade para usuários","Design responsivo"],
+    "github": "https://github.com/samuellsf/samuellsf.github.io",
+    "demo": "https://samuellsf.github.io/Project/"
   }
+
 ]

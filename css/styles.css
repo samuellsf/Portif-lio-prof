@@ -18,3 +18,20 @@ h2 {
   margin-bottom: 20px;
   color: #38bdf8;
 }
+.contact-info {
+  text-align: left;
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
+
+.contact-info a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}

@@ -63,6 +63,14 @@
     {
         "title": "DevOps na Prática",
         "image": "assets/images/certificates/cert-15.jpg"
+    },
+    {
+        "title": "Testes Automatizados com Selenium",
+        "image": "assets/images/certificates/cert-16.jpg"
+    },
+    {
+        "title": "Desenvolvimento Mobile com React Native",
+        "image": "assets/images/certificates/cert-17.jpg"
     }
 
 ]
