@@ -2,4 +2,10 @@
   .hero h1 {
     font-size: 1.8rem;
   }
+  .sobre-mim {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+  }
+  
 }
