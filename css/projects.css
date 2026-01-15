@@ -1,14 +1,16 @@
 .projects-grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
 }
 
-.project-card {
-  background: #54a9f8;
-  padding: 20px;
+.project-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
   border-radius: 10px;
 }
+
 .project-card {
   background: #020617;
   border-radius: 14px;

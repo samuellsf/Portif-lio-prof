@@ -71,6 +71,91 @@
     {
         "title": "Desenvolvimento Mobile com React Native",
         "image": "assets/images/certificates/cert-17.jpg"
-    }
+    },
+    
+  {
+    "title": "Java para Iniciantes (Projetos do Mundo Real)",
+    "image": "assets/images/certificates/java-iniciantes.jpg"
+  },
+  {
+    "title": "Java SE – Polimorfismo e Orientação a Objetos",
+    "image": "assets/images/certificates/java-polimorfismo.jpg"
+  },
+  {
+    "title": "Configuração do Ambiente de Desenvolvimento Java",
+    "image": "assets/images/certificates/java-ambiente.jpg"
+  },
+  {
+    "title": "Banco de Dados SQL do Zero ao Avançado",
+    "image": "assets/images/certificates/sql-avancado.jpg"
+  },
+  {
+    "title": "Modelagem de Dados e Banco de Dados Relacional",
+    "image": "assets/images/certificates/modelagem-dados.jpg"
+  },
+  {
+    "title": "HTML5, CSS3 e JavaScript",
+    "image": "assets/images/certificates/frontend.jpg"
+  },
+  {
+    "title": "Git e GitHub na Prática",
+    "image": "assets/images/certificates/git-github.jpg"
+  },
+  {
+    "title": "Fundamentos do Scrum (Scrum Fundamentals Certified)",
+    "image": "assets/images/certificates/scrum-sfc.jpg"
+  },
+  {
+    "title": "Introdução à Agilidade, Scrum e Kanban",
+    "image": "assets/images/certificates/agilidade-kanban.jpg"
+  },
+  {
+    "title": "Curso de Scrum Básico",
+    "image": "assets/images/certificates/scrum-basico.jpg"
+  },
+  {
+    "title": "Curso Rápido de Trello",
+    "image": "assets/images/certificates/trello.jpg"
+  },
+  {
+    "title": "Introdução ao Sistema Operacional Linux",
+    "image": "assets/images/certificates/linux-introducao.jpg"
+  },
+  {
+    "title": "Terminal de Comandos Linux",
+    "image": "assets/images/certificates/linux-terminal.jpg"
+  },
+  {
+    "title": "Domine o Linux, Redes e Segurança",
+    "image": "assets/images/certificates/linux-avancado.jpg"
+  },
+  {
+    "title": "Aprendendo Redes de Computadores na Prática",
+    "image": "assets/images/certificates/redes.jpg"
+  },
+  {
+    "title": "Monitoramento de Rede – PRTG Network Monitor",
+    "image": "assets/images/certificates/prtg.jpg"
+  },
+  {
+    "title": "Imersão Dev – Alura (7ª Edição)",
+    "image": "assets/images/certificates/imersao-dev.jpg"
+  },
+  {
+    "title": "Dev Quest Starter",
+    "image": "assets/images/certificates/dev-quest.jpg"
+  },
+  {
+    "title": "Semana do Zero ao Programador Contratado",
+    "image": "assets/images/certificates/dev-em-dobro.jpg"
+  },
+  {
+    "title": "Acelerador de Carreira com Power BI",
+    "image": "assets/images/certificates/powerbi.jpg"
+  },
+  {
+    "title": "Gestão de Carreira e Inteligência Artificial",
+    "image": "assets/images/certificates/carreira.jpg"
+  }
 
 ]
