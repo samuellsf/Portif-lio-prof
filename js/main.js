@@ -1,7 +1,11 @@
-
 async function loadSection(id, file) {
-  const res = await fetch(file);
-  document.getElementById(id).innerHTML = await res.text();
+  try {
+    const res = await fetch(file);
+    if (!res.ok) throw new Error(`Erro ao carregar ${file}`);
+    document.getElementById(id).innerHTML = await res.text();
+  } catch (err) {
+    console.error(err);
+  }
 }
 
 loadSection("header", "sections/header.html");

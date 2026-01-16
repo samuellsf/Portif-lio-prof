@@ -1,0 +1,76 @@
+.contact {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 32px;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* LADO A LADO */
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+/* Infos */
+.contact-info {
+  display: grid;
+  gap: 16px;
+}
+
+.contact-info p {
+  background: #020617;
+  padding: 14px 18px;
+  border-radius: 10px;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-info a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* BOTÃO */
+.btn-top {
+  white-space: nowrap;
+  background: #020617;
+  color: #38bdf8;
+  padding: 14px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-top:hover {
+  background: #38bdf8;
+  color: #020617;
+  transform: translateY(-2px);
+}
+
+/* MOBILE — continua lado a lado */
+@media (max-width: 768px) {
+  .contact-wrapper {
+    gap: 16px;
+  }
+
+  .btn-top {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+  }
+}

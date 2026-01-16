@@ -1,7 +1,14 @@
 .projects-grid {
   display: grid;
-  gap: 20px;
+  gap: 30px;
   grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+}
+.projects h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #efecec;
+  letter-spacing: 1px;
 }
 
 .project-image {
@@ -13,14 +20,14 @@
 
 .project-card {
   background: #020617;
-  border-radius: 14px;
+  border-radius:14px;
   padding: 14px;
   color: #e5e7eb;
 }
 
 .project-image {
   width: 100%;
-  height: 160px;
+  height: 100px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -40,4 +47,35 @@
   color: #38bdf8;
   text-decoration: none;
   font-weight: 500;
+
 }
+.project-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.project-links a {
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px;
+  background: #020617;
+  color: #38bdf8;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #38bdf8;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.project-links a:hover {
+  background: #38bdf8;
+  color: #020617;
+  transform: translateY(-2px);
+}
+@media (max-width: 768px) {
+  .projects {
+    margin: 40px auto;
+    padding: 0 16px;
+  }
+} 

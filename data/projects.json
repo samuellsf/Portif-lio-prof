@@ -58,7 +58,7 @@
   },
   {
     "title": "SCORPIO-TECH",
-    "image": "assets/imagens/img/Scorpio.png",
+    "image": "assets/imagens/img/scopio.png",
     "tech": ["🔧 Tecnologias","HTML – Estrutura do site", "CSS – Layout e identidade visual", "JavaScript – Funcionalidades e interações", "🧠Metodologias / Conceitos","Site corporativo","Identidade visual forte","Interatividade para usuários","Design responsivo"],
     "github": "https://github.com/samuellsf/samuellsf.github.io",
     "demo": "https://samuellsf.github.io/Project/"
