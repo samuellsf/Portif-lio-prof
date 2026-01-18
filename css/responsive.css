@@ -1,9 +1,26 @@
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-  
+html, body {
+  min-height: 100%;
 }
+
 body {
-  background: #1e293b !important;
+  background-color: #1e293b;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("../assets/imagens/fundo1-port.webp");
+}
+
+@media (max-width: 768px) {
+  html, body {
+    background-image:
+      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url("../assets/imagens/fundo1-port.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  section,
+  header {
+    background: transparent !important;
+  }
 }

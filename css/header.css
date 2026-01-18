@@ -17,15 +17,49 @@
   background-repeat: no-repeat;
   background-color: #00020c;
 }
+
+.faculdade {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: -4px;
+  font-size: 0.95rem;
+  color: #cbd5e1;
+}
+
+.faculdade img {
+  width: 50px;
+  height: auto;
+  border-radius: 8px;
+}
+.faculdade {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 18px;
+  background: rgba(56, 189, 248, 0.12);
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  transform: translateY(-4px); 
+}
+
+
 .hero-content {
   width: 100%;
-  max-width: 1100px;
-
+  max-width: 1300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
 }
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
 .profile-pic {
   width: 190px;
   height: 190px;
@@ -39,7 +73,7 @@
 }
 .hero-nav {
   display: flex;
-  align-items: center;
+  align-items: cente;
   gap: 24px;
 }
 
@@ -73,6 +107,7 @@
   width: 28px;
   height: 28px;
   margin-left: 8px;
+  border-radius: 8px;
   transition: transform 0.3s ease;
 }
 
@@ -85,7 +120,10 @@
     padding: 24px 16px;
     background-size: contain;
   }
-
+  
+.faculdade span {
+    display: none;
+  }
   .hero-content {
     flex-direction: column;
     gap: 24px;
@@ -95,6 +133,9 @@
     width: 120px;
     height: 120px;
   }
+.hero-left {
+  gap: 4px;
+}
 
   .hero-nav {
     flex-wrap: wrap;
