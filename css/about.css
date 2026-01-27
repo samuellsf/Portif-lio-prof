@@ -1,125 +1,137 @@
-/* ABOUT PAGE STYLES */
-.about,
-.profile,
-.contributions {
-  width: 100%;
-  max-width: 1300px;
-  margin: 0 auto;
-  
-}
+/* SEÇÃO SOBRE */
 
-.about-video {
-  margin-top: 70px; 
+.about {
+  padding: 80px 20px;
+
+  background: rgba(15, 23, 42, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border-radius: 20px;
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+
+  margin: 60px auto;
+  max-width: 1200px;
 }
 
 .about-grid {
+  max-width: 1200px;
+  margin: auto;
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 48px;
-  align-items: flex-start;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
 }
 
-/* COLUNA DO VÍDEO */
 .about-media {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  align-items: center;
+  gap: 25px;
 }
 
-/* VÍDEO GRANDE */
+.about-video {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
 .about-video video {
   width: 100%;
-  max-width: 680px;
-  height: auto;  
-  aspect-ratio: 24 / 9;
-  border-radius: 18px;
-  box-shadow: 0 20px 45px rgba(0,0,0,0.55);
+  height: auto;
+  display: block;
   object-fit: cover;
 }
 
-/* TEXTO */
-.about-text h2 {
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-
-.about-text p {
-  color: #e5e7eb;
-  line-height: 1.7;
-  white-space: pre-line;
-  background: #020617;
-  padding: 42px;
-  border-radius: 14px;
-}
-
-/* TECNOLOGIAS */
 .tech-title {
-  text-align: center;
-  font-size: 1.4rem;
-  margin-bottom: 38px;
   color: #e5e7eb;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .tech-icons {
-  background: linear-gradient(145deg, #020617, #070b15e3);
-  padding: 24px;
-  border-radius: 18px;
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
   justify-content: center;
-  gap: 14px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
 }
 
 .tech-icons img {
-  height: 32px;
   transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
 }
 
 .tech-icons img:hover {
   transform: scale(1.08);
-  filter: brightness(1.1);
+  filter: brightness(1.15);
 }
 
 
-@media (max-width: 768px) {
-  .about {
-    margin: 40px auto;
-    padding: 0 16px;
-  }
+.about-text {
+  color: #e5e7eb;
+}
 
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #cbd5f5;
+}
+
+.about-text a {
+  color: #38bdf8;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.about-text a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
   .about-grid {
     grid-template-columns: 1fr;
-    gap: 32px;
+    text-align: center;
   }
 
-  .about-video video {
-    max-width: 100%;
-    aspect-ratio: 16 / 9;
+  .about-text h2 {
+    font-size: 1.8rem;
   }
 
-  .tech-icons {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-  }
-
-  .tech-item img {
-    width: 40px;
-    height: 40px;
-  }
-
-@media (max-width: 480px) {
-  .contribution-card {
-    padding: 10px;
+  .about-text p {
+    font-size: 0.95rem;
   }
 }
-.about-video video {
-  width: 100%;
-  max-width: 520px;
-  height: auto;  
-  aspect-ratio: 25 / 9;
-  border-radius: 18px;
-  box-shadow: 0 20px 45px rgba(0,0,0,0.55);
-  object-fit: cover;
- }
+
+@media (max-width: 600px) {
+  .about {
+    padding: 60px 15px;
+  }
+
+  .about-video {
+    max-width: 100%;
+  }
+
+  .tech-title {
+    font-size: 1.1rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-text p {
+    font-size: 0.92rem;
+    text-align: justify;
+  }
 }
