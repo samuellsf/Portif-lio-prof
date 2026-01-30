@@ -66,3 +66,26 @@
     font-size: 1.6rem;
   }
 }
+@media (max-width: 480px) {
+  .certificate-card {
+    padding: 14px;
+  }
+
+  .certificate-image {
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .certificate-title {
+    font-size: 0.95rem;
+  }
+
+  .certificate-org {
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 360px) {
+  .contact-info p {
+    font-size: 1rem;
+  }
+}

@@ -62,6 +62,58 @@
     "tech": ["🔧 Tecnologias","HTML – Estrutura do site", "CSS – Layout e identidade visual", "JavaScript – Funcionalidades e interações", "🧠Metodologias / Conceitos","Site corporativo","Identidade visual forte","Interatividade para usuários","Design responsivo"],
     "github": "https://github.com/samuellsf/samuellsf.github.io",
     "demo": "https://samuellsf.github.io/Project/"
-  }
+  },
+  {
+  "title": "LISTAGEM-POKÉMON",
+  "image": "assets/imagens/img/listagem.png",
+  "tech": [
+    "🔧 Tecnologias Utilizadas",
+    "HTML5 – Estrutura do site",
+    "CSS3 – Estilização e layout",
+    "JavaScript – Interações e troca de tema",
+    "🧠 Conceitos Aplicados",
+    "Manipulação do DOM",
+    "Design responsivo",
+    "Interatividade para o usuário"
+  ],
+  "github": "https://github.com/samuellsf/samuellsf.github.io",
+  "demo": "https://samuellsf.github.io/projeto-listagem-pokemon/"
+},
+  {
+  "title": "WEB-DEVELOP",
+  "image": "assets/imagens/img/web-develop.png",
+  "tech": [
+    "🔧 Tecnologias Utilizadas",
+    "HTML5 – Estrutura do site",
+    "CSS3 – Estilização e layout",
+    "JavaScript – Funcionalidades e interações",
+    "🧠 Conceitos Aplicados",
+    "Site institucional",
+    "Identidade visual profissional",
+    "Design responsivo",
+    "Interatividade para o usuário"
+  ],
+  "github": "https://github.com/samuellsf/samuellsf.github.io",
+  "demo": "https://samuellsf.github.io/Samuel-Dev-web/"
+},
+
+  {
+  "title": "HMJ-BARBEARIA",
+  "image": "assets/imagens/img/Hmj.png",
+  "tech": [
+    "🔧 Tecnologias Utilizadas",
+    "HTML5 – Estrutura do site",
+    "CSS3 – Estilização e layout",
+    "JavaScript – Funcionalidades e interações",
+    "🧠 Conceitos Aplicados",
+    "Site institucional",
+    "Identidade visual profissional",
+    "Design responsivo",
+    "Interatividade para o usuário"
+  ],
+  "github": "https://github.com/samuellsf/samuellsf.github.io",
+  "demo": "https://samuellsf.github.io/barbearia-hmj-paulo-oliveira/"
+}
+
 
 ]

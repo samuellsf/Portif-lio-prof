@@ -1,161 +1,55 @@
 [
-  {
-    "title": "Java Completo",
-    "image": "assets/images/certificates/cert-1.jpg"
-  },
+  { "title": "Certificado Geral – Análise de Dados com Python", "image": "assets/images/certificates/python-geral.jpg" },
+  { "title": "Introdução à Linguagem Python", "image": "assets/images/certificates/python-introducao.jpg" },
+  { "title": "Introdução à Análise de Dados com Python", "image": "assets/images/certificates/python-dados.jpg" },
+  { "title": "Estruturas de Dados em Python", "image": "assets/images/certificates/python-estruturas.jpg" },
 
-    {
-    "title": "JavaScript Moderno",
-    "image": "assets/images/certificates/cert-2.jpg"
-  },
+  { "title": "Certificado Geral – Coaching e Liderança", "image": "assets/images/certificates/coaching-geral.jpg" },
+  { "title": "Liderança e Desenvolvimento de Equipes", "image": "assets/images/certificates/lideranca-equipes.jpg" },
+  { "title": "Gestão de Metas e Indicadores de Performance", "image": "assets/images/certificates/gestao-metas.jpg" },
+  { "title": "Comunicação Assertiva e Negociação", "image": "assets/images/certificates/comunicacao.jpg" },
+  { "title": "Autocoaching", "image": "assets/images/certificates/autocoaching.jpg" },
 
-  {
-    "title": "HTML5 e CSS3",
-    "image": "assets/images/certificates/cert-3.jpg"
-  },
-    {
-        "title": "React.js",
-        "image": "assets/images/certificates/cert-4.jpg"
-    },
+  { "title": "Certificado Geral – Espanhol: Vocabulário Essencial", "image": "assets/images/certificates/espanhol-geral.jpg" },
+  { "title": "Língua Espanhola I", "image": "assets/images/certificates/espanhol-1.jpg" },
+  { "title": "Língua Espanhola II", "image": "assets/images/certificates/espanhol-2.jpg" },
 
-    {
-        "title": "Node.js",
-        "image": "assets/images/certificates/cert-5.jpg"
-    },
-    {
-        "title": "TypeScript",
-        "image": "assets/images/certificates/cert-6.jpg"
-    },
-    {
-        "title": "Python para Iniciantes",
-        "image": "assets/images/certificates/cert-7.jpg"
-    },
+  { "title": "Certificado Geral – Finanças Pessoais e Investimentos", "image": "assets/images/certificates/financas-geral.jpg" },
+  { "title": "Mercado de Capitais", "image": "assets/images/certificates/mercado-capitais.jpg" },
+  { "title": "Capital de Giro e Análise Financeira", "image": "assets/images/certificates/capital-giro.jpg" },
+  { "title": "Análise de Investimentos e Fontes de Financiamento", "image": "assets/images/certificates/investimentos.jpg" },
 
-    {
-        "title": "Banco de Dados com MySQL",
-        "image": "assets/images/certificates/cert-8.jpg"
-    },
-    {
-        "title": "Desenvolvimento Web Completo",
-        "image": "assets/images/certificates/cert-9.jpg"
-    },
-    {
-        "title": "Git e GitHub na Prática",
-        "image": "assets/images/certificates/cert-10.jpg"
-    },
+  { "title": "Modelos de Gestão de Projetos", "image": "assets/images/certificates/gestao-projetos.jpg" },
 
-    {
-        "title": "Docker para Desenvolvedores",
-        "image": "assets/images/certificates/cert-11.jpg"
-    },
-    {
-        "title": "Metodologias Ágeis",
-        "image": "assets/images/certificates/cert-12.jpg"
-    },
-    {
-        "title": "Segurança da Informação",
-        "image": "assets/images/certificates/cert-13.jpg"
-    },
-    {
-        "title": "AWS Cloud Practitioner",
-        "image": "assets/images/certificates/cert-14.jpg"
-    },
-    {
-        "title": "DevOps na Prática",
-        "image": "assets/images/certificates/cert-15.jpg"
-    },
-    {
-        "title": "Testes Automatizados com Selenium",
-        "image": "assets/images/certificates/cert-16.jpg"
-    },
-    {
-        "title": "Desenvolvimento Mobile com React Native",
-        "image": "assets/images/certificates/cert-17.jpg"
-    },
-    
-  {
-    "title": "Java para Iniciantes (Projetos do Mundo Real)",
-    "image": "assets/images/certificates/java-iniciantes.jpg"
-  },
-  {
-    "title": "Java SE – Polimorfismo e Orientação a Objetos",
-    "image": "assets/images/certificates/java-polimorfismo.jpg"
-  },
-  {
-    "title": "Configuração do Ambiente de Desenvolvimento Java",
-    "image": "assets/images/certificates/java-ambiente.jpg"
-  },
-  {
-    "title": "Banco de Dados SQL do Zero ao Avançado",
-    "image": "assets/images/certificates/sql-avancado.jpg"
-  },
-  {
-    "title": "Modelagem de Dados e Banco de Dados Relacional",
-    "image": "assets/images/certificates/modelagem-dados.jpg"
-  },
-  {
-    "title": "HTML5, CSS3 e JavaScript",
-    "image": "assets/images/certificates/frontend.jpg"
-  },
-  {
-    "title": "Git e GitHub na Prática",
-    "image": "assets/images/certificates/git-github.jpg"
-  },
-  {
-    "title": "Fundamentos do Scrum (Scrum Fundamentals Certified)",
-    "image": "assets/images/certificates/scrum-sfc.jpg"
-  },
-  {
-    "title": "Introdução à Agilidade, Scrum e Kanban",
-    "image": "assets/images/certificates/agilidade-kanban.jpg"
-  },
-  {
-    "title": "Curso de Scrum Básico",
-    "image": "assets/images/certificates/scrum-basico.jpg"
-  },
-  {
-    "title": "Curso Rápido de Trello",
-    "image": "assets/images/certificates/trello.jpg"
-  },
-  {
-    "title": "Introdução ao Sistema Operacional Linux",
-    "image": "assets/images/certificates/linux-introducao.jpg"
-  },
-  {
-    "title": "Terminal de Comandos Linux",
-    "image": "assets/images/certificates/linux-terminal.jpg"
-  },
-  {
-    "title": "Domine o Linux, Redes e Segurança",
-    "image": "assets/images/certificates/linux-avancado.jpg"
-  },
-  {
-    "title": "Aprendendo Redes de Computadores na Prática",
-    "image": "assets/images/certificates/redes.jpg"
-  },
-  {
-    "title": "Monitoramento de Rede – PRTG Network Monitor",
-    "image": "assets/images/certificates/prtg.jpg"
-  },
-  {
-    "title": "Imersão Dev – Alura (7ª Edição)",
-    "image": "assets/images/certificates/imersao-dev.jpg"
-  },
-  {
-    "title": "Dev Quest Starter",
-    "image": "assets/images/certificates/dev-quest.jpg"
-  },
-  {
-    "title": "Semana do Zero ao Programador Contratado",
-    "image": "assets/images/certificates/dev-em-dobro.jpg"
-  },
-  {
-    "title": "Acelerador de Carreira com Power BI",
-    "image": "assets/images/certificates/powerbi.jpg"
-  },
-  {
-    "title": "Gestão de Carreira e Inteligência Artificial",
-    "image": "assets/images/certificates/carreira.jpg"
-  }
+  { "title": "Fundamentos do Scrum + Scrum Fundamentals Certified (SFC)", "image": "assets/images/certificates/scrum-sfc.jpg" },
+  { "title": "Os Fundamentos do Scrum", "image": "assets/images/certificates/scrum-fundamentos.jpg" },
+  { "title": "Introdução à Agilidade, Scrum e Kanban", "image": "assets/images/certificates/agilidade-kanban.jpg" },
+  { "title": "Curso de Scrum Básico", "image": "assets/images/certificates/scrum-basico.jpg" },
+  { "title": "Curso Rápido de Trello", "image": "assets/images/certificates/trello.jpg" },
 
+  { "title": "Banco de Dados SQL do Zero ao Avançado", "image": "assets/images/certificates/sql-avancado.jpg" },
+
+  { "title": "Configuração do Ambiente de Desenvolvimento em Java", "image": "assets/images/certificates/java-ambiente.jpg" },
+  { "title": "Java SE – Polimorfismo e Orientação a Objetos", "image": "assets/images/certificates/java-polimorfismo.jpg" },
+  { "title": "Java para Iniciantes – Projetos do Mundo Real", "image": "assets/images/certificates/java-iniciantes.jpg" },
+  { "title": "Teste Unitário em Java com JUnit", "image": "assets/images/certificates/junit.jpg" },
+
+  { "title": "Introdução ao Sistema Operacional Linux", "image": "assets/images/certificates/linux-introducao.jpg" },
+  { "title": "Terminal de Comandos Linux", "image": "assets/images/certificates/linux-terminal.jpg" },
+  { "title": "Domine o Linux, Redes e Segurança", "image": "assets/images/certificates/linux-avancado.jpg" },
+
+  { "title": "Monitoramento de Rede – PRTG Network Monitor", "image": "assets/images/certificates/prtg.jpg" },
+  { "title": "Aprendendo Redes de Computadores na Prática", "image": "assets/images/certificates/redes.jpg" },
+
+  { "title": "Como Obter Recolocação Profissional ou Promoção", "image": "assets/images/certificates/recolocacao.jpg" },
+  { "title": "Inteligência Emocional – 5 Pilares do Sucesso", "image": "assets/images/certificates/inteligencia-emocional.jpg" },
+  { "title": "Como Ser um Profissional de Resultados", "image": "assets/images/certificates/profissional-resultados.jpg" },
+  { "title": "Gestão de Carreira e Crescimento Profissional", "image": "assets/images/certificates/carreira.jpg" },
+
+  { "title": "Dev Quest Starter", "image": "assets/images/certificates/dev-quest.jpg" },
+  { "title": "Semana do Zero ao Programador Contratado – Dev em Dobro", "image": "assets/images/certificates/dev-em-dobro.jpg" },
+  { "title": "Imersão Dev – Alura (7ª Edição)", "image": "assets/images/certificates/imersao-dev.jpg" },
+  { "title": "Acelerador de Carreira com Power BI", "image": "assets/images/certificates/powerbi.jpg" },
+
+  { "title": "Ada – Certificado Santander", "image": "assets/images/certificates/ada-santander.jpg" }
 ]

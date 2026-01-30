@@ -79,3 +79,8 @@
     padding: 0 16px;
   }
 } 
+@media (max-width: 360px) {
+  .project-links {
+    grid-template-columns: 1fr; 
+  }
+}

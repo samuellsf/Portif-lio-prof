@@ -70,7 +70,19 @@
   box-shadow:
     0 0 25px rgba(56, 189, 248, 0.6),
     0 0 60px rgba(56, 189, 248, 0.25);
+
+  opacity: 0;
+  transform: scale(0.85);
+  animation: aparecerFoto 2s ease-out forwards;
 }
+
+@keyframes aparecerFoto {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .hero-nav {
   display: flex;
   align-items: cente;
