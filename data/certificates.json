@@ -1,7 +1,18 @@
 [
+
+{ "title": "Evolution-Camp – Desenvolvimento Web com JavaScript", "image": "assets/imagens/certificates/shark-evolution.jpeg" },
+
+  { "title": "JavaScript: Fundamentos e Lógica de Programação", "image": "assets/images/certificates/shark-.jpg" },
+
+  { "title": "JavaScript: Manipulação do DOM", "image": "assets/images/certificates/javascript-dom.jpg" },
+
+  { "title": "JavaScript: Programação Orientada a Objetos", "image": "assets/images/certificates/javascript-poo.jpg" },
+
+  { "title": "JavaScript: Trabalhando com APIs e Fetch", "image": "assets/images/certificates/javascript-apis.jpg" },
+
   { "title": "Certificado Geral – Análise de Dados com Python", "image": "assets/images/certificates/python-geral.jpg" },
   { "title": "Introdução à Linguagem Python", "image": "assets/images/certificates/python-introducao.jpg" },
-  { "title": "Introdução à Análise de Dados com Python", "image": "assets/images/certificates/python-dados.jpg" },
+  { "title": "Introdução à Análise de Dados com Python", "image": "assets/imagens/certificates/Análise-de-Python.png" },
   { "title": "Estruturas de Dados em Python", "image": "assets/images/certificates/python-estruturas.jpg" },
 
   { "title": "Certificado Geral – Coaching e Liderança", "image": "assets/images/certificates/coaching-geral.jpg" },
@@ -17,17 +28,17 @@
   { "title": "Certificado Geral – Finanças Pessoais e Investimentos", "image": "assets/images/certificates/financas-geral.jpg" },
   { "title": "Mercado de Capitais", "image": "assets/images/certificates/mercado-capitais.jpg" },
   { "title": "Capital de Giro e Análise Financeira", "image": "assets/images/certificates/capital-giro.jpg" },
-  { "title": "Análise de Investimentos e Fontes de Financiamento", "image": "assets/images/certificates/investimentos.jpg" },
+  { "title": "Análise de Investimentos e Fontes de Financiamento", "image": "assets/imagens/certificates/analise-de-investimento.png" },
 
   { "title": "Modelos de Gestão de Projetos", "image": "assets/images/certificates/gestao-projetos.jpg" },
 
-  { "title": "Fundamentos do Scrum + Scrum Fundamentals Certified (SFC)", "image": "assets/images/certificates/scrum-sfc.jpg" },
+  { "title": "Fundamentos do Scrum + Scrum Fundamentals Certified (SFC)", "image": "assets/imagens/certificates/Fundamentos-do-Scrum.jpg" },
   { "title": "Os Fundamentos do Scrum", "image": "assets/images/certificates/scrum-fundamentos.jpg" },
   { "title": "Introdução à Agilidade, Scrum e Kanban", "image": "assets/images/certificates/agilidade-kanban.jpg" },
   { "title": "Curso de Scrum Básico", "image": "assets/images/certificates/scrum-basico.jpg" },
   { "title": "Curso Rápido de Trello", "image": "assets/images/certificates/trello.jpg" },
 
-  { "title": "Banco de Dados SQL do Zero ao Avançado", "image": "assets/images/certificates/sql-avancado.jpg" },
+  { "title": "Banco de Dados SQL do Zero ao Avançado", "image": "assets/imagens/certificates/Banco-de-Dados-SQL.jpg" },
 
   { "title": "Configuração do Ambiente de Desenvolvimento em Java", "image": "assets/images/certificates/java-ambiente.jpg" },
   { "title": "Java SE – Polimorfismo e Orientação a Objetos", "image": "assets/images/certificates/java-polimorfismo.jpg" },
