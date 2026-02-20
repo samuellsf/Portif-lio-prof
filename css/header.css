@@ -1,0 +1,183 @@
+.hero {
+  position: relative;
+  min-height: 40vh;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  padding: 30px 40px;
+
+  background-image:
+    linear-gradient(135deg, rgba(2, 6, 23, 0.75), rgba(2, 6, 23, 0.75)),
+    url("../assets/imagens/banner.portifolio.png");
+    
+   background-size: contain;   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #00020c;
+}
+
+.faculdade {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: -4px;
+  font-size: 0.95rem;
+  color: #cbd5e1;
+}
+
+.faculdade img {
+  width: 50px;
+  height: auto;
+  border-radius: 8px;
+}
+.faculdade {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 18px;
+  background: rgba(56, 189, 248, 0.12);
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  transform: translateY(-4px); 
+}
+
+
+.hero-content {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.profile-pic {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 4px solid #38bdf8;
+  box-shadow:
+    0 0 25px rgba(56, 189, 248, 0.6),
+    0 0 60px rgba(56, 189, 248, 0.25);
+
+  opacity: 0;
+  transform: scale(0.85);
+  animation: aparecerFoto 2s ease-out forwards;
+}
+
+@keyframes aparecerFoto {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.hero-nav {
+  display: flex;
+  align-items: cente;
+  gap: 24px;
+}
+
+.hero-nav a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+}
+
+.hero-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #38bdf8;
+  transition: width 0.3s ease;
+}
+
+.hero-nav a:hover::after {
+  width: 100%;
+}
+
+.hero-nav a:hover {
+  color: #ffffff;
+}
+
+.hero-nav img {
+  width: 28px;
+  height: 28px;
+  margin-left: 8px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.hero-nav img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 24px 16px;
+    background-size: contain;
+  }
+  
+.faculdade span {
+    display: none;
+  }
+  .hero-content {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+.hero-left {
+  gap: 4px;
+}
+
+  .hero-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+}
+@media (max-width: 360px) {
+  .hero {
+    padding: 20px 12px;
+    min-height: auto;
+    background-size: contain;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-width: 3px;
+  }
+
+  .hero-nav {
+    gap: 12px;
+  }
+
+  .hero-nav a {
+    font-size: 0.9rem;
+  }
+
+  .hero-nav img {
+    width: 22px;
+    height: 22px;
+  }
+}

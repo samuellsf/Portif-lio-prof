@@ -1,0 +1,26 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-color: #1e293b;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/imagens/fundo1-port.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll; 
+  }
+
+  section,
+  header {
+    background-color: transparent !important;
+  }
+}
