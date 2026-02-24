@@ -1,233 +1,190 @@
 [
   {
-    "title": "Evolution Camp – Desenvolvimento Web com JavaScript",
-    "image": "assets/imagens/certificates/shark-evolution.jpeg",
-    "learned": "Desenvolvimento de aplicações web com JavaScript moderno, manipulação do DOM, consumo de APIs e boas práticas de organização de código."
-  },
-  {
-    "title": "JavaScript: Fundamentos e Lógica de Programação",
-    "image": "assets/images/certificates/javascript-fundamentos.jpg",
-    "learned": "Variáveis, estruturas condicionais, loops, funções e fundamentos da lógica aplicada à programação."
-  },
-  {
-    "title": "JavaScript: Manipulação do DOM",
-    "image": "assets/images/certificates/javascript-dom.jpg",
-    "learned": "Seleção e manipulação de elementos HTML, eventos, criação dinâmica de conteúdo e interatividade em páginas web."
-  },
-  {
-    "title": "JavaScript: Programação Orientada a Objetos",
-    "image": "assets/images/certificates/javascript-poo.jpg",
-    "learned": "Conceitos de classes, objetos, herança, encapsulamento e modularização de código."
-  },
-  {
-    "title": "JavaScript: Trabalhando com APIs e Fetch",
-    "image": "assets/images/certificates/javascript-apis.jpg",
-    "learned": "Consumo de APIs REST, uso de fetch, tratamento de requisições assíncronas e manipulação de JSON."
-  },
-  {
-    "title": "Certificado Geral – Análise de Dados com Python",
-    "image": "assets/imagens/certificates/Análise-de-Dados-com-Python.png",
-    "learned": "Fundamentos da análise de dados utilizando Python, bibliotecas como Pandas e visualização de dados."
-  },
-  {
-    "title": "Introdução à Linguagem Python",
-    "image": "assets/imagens/certificates/Introdução-à-Linguagem-Python.png",
-    "learned": "Sintaxe básica, tipos de dados, estruturas de repetição e funções em Python."
-  },
-  {
-    "title": "Introdução à Análise de Dados com Python",
-    "image": "assets/imagens/certificates/introdução-analise-de-dados-com-python.png",
-    "learned": "Manipulação de dados com Pandas, limpeza de dados e análise exploratória."
-  },
-  {
-    "title": "Estruturas de Dados em Python",
-    "image": "assets/images/certificates/python-estruturas.jpg",
-    "learned": "Uso de listas, dicionários, tuplas, conjuntos e manipulação eficiente de dados."
-  },
-  {
-    "title": "Certificado Geral – Coaching e Liderança",
-    "image": "assets/imagens/certificates/COACHING-E-LIDERANÇA.png",
-    "learned": "Princípios de liderança, desenvolvimento de equipes, inteligência emocional e comunicação eficaz."
-  },
-  {
-    "title": "Liderança e Desenvolvimento de Equipes",
-    "image": "assets/imagens/certificates/LIDERANÇA-E-DESENVOLVIME-TO-DE-EQUIPES.png",
-    "learned": "Gestão de pessoas, motivação, feedback estruturado e formação de equipes de alta performance."
-  },
-  {
-    "title": "Gestão de Metas e Indicadores de Performance",
-    "image": "assets/imagens/certificates/GESTÃO-DE-METAS-E-INDICADORES-DE-PERFORMANCE.png",
-    "learned": "Definição de metas SMART, KPIs e acompanhamento de desempenho organizacional."
-  },
-  {
-    "title": "Comunicação Assertiva e Negociação",
-    "image": "assets/imagens/certificates/Comunicação-Assertiva-e-Negociação.png",
-    "learned": "Técnicas de comunicação clara, escuta ativa e estratégias de negociação."
-  },
-  {
-    "title": "Autocoaching",
-    "image": "assets/imagens/certificates/Autocoaching.png",
-    "learned": "Autoconhecimento, definição de objetivos pessoais e planejamento de desenvolvimento."
-  },
-  {
-    "title": "Certificado Geral – Espanhol: Vocabulário Essencial",
-    "image": "assets/imagens/certificates/Espanhol-Vocabulário-Essencial.png",
-    "learned": "Vocabulário básico e intermediário da língua espanhola aplicado ao cotidiano."
-  },
-  {
-    "title": "Língua Espanhola I",
-    "image": "assets/imagens/certificates/LÍNGUA-ESPANHOLA-I.png",
-    "learned": "Estruturas gramaticais básicas e conversação inicial."
-  },
-  {
-    "title": "Língua Espanhola II",
-    "image": "assets/imagens/certificates/LÍNGUA-ESPANHOLA-II.png",
-    "learned": "Aprofundamento gramatical, leitura e conversação intermediária."
-  },
-  {
-    "title": "Certificado Geral – Finanças Pessoais e Investimentos",
-    "image": "assets/imagens/certificates/FINANÇAS-PESSOAIS-E-INVESTIMENTOS.png",
-    "learned": "Planejamento financeiro, organização de orçamento e fundamentos de investimentos."
-  },
-  {
-    "title": "Mercado de Capitais",
-    "image": "assets/imagens/certificates/MERCADO-DE-CAPITAIS.png",
-    "learned": "Funcionamento da bolsa de valores, ações, renda fixa e variável."
-  },
-  {
-    "title": "Capital de Giro e Análise Financeira",
-    "image": "assets/imagens/certificates/CAPITAL-DE-GIRO-E-ANALISE-FINANCEIRA.png",
-    "learned": "Gestão de fluxo de caixa, indicadores financeiros e análise de viabilidade."
-  },
-  {                                                                                             
-    "title": "Modelos de Gestão de Projetos",
-    "image": "assets/imagens/certificates/MODELOS-DE-GESTAO.png",
-    "learned": "Metodologias tradicionais e ágeis de gerenciamento de projetos."
-  },
-
-  {
-    "title": "Análise de Investimentos e Fontes de Financiamento",
-    "image": "assets/imagens/certificates/analise-de-investimento.png",
-    "learned": "Avaliação de projetos, cálculo de ROI, VPL, TIR e análise de alternativas de financiamento."
-  },
-  {
-    "title": "Fundamentos do Scrum + Scrum Fundamentals Certified (SFC)",
-    "image": "assets/imagens/certificates/Fundamentos-do-Scrum.jpg",
-    "learned": "Princípios do Scrum, papéis (Product Owner, Scrum Master, Time), eventos e artefatos ágeis."
-  },
-  {
-    "title": "Os Fundamentos do Scrum",
-    "image": "assets/imagens/certificates/Os-Fundamentos-do-Scrum.png",
-    "learned": "Aplicação prática do framework Scrum, planejamento de sprints e melhoria contínua."
-  },
-  {
-    "title": "Introdução à Agilidade, Scrum e Kanban",
-    "image": "assets/imagens/certificates/Introdução-scrum-kanban-Curso-express.png",
-    "learned": "Mentalidade ágil, diferenças entre Scrum e Kanban e gestão visual de tarefas."
-  },
-  {
-    "title": "Curso de Scrum Básico",
-    "image": "assets/images/certificates/scrum-basico.jpg",
-    "learned": "Conceitos introdutórios de metodologias ágeis e organização de times ágeis."
-  },
-  {
-    "title": "Curso Rápido de Trello",
-    "image": "assets/images/certificates/trello.jpg",
-    "learned": "Organização de tarefas e projetos utilizando quadros Kanban no Trello."
-  },
-  {
-    "title": "Banco de Dados SQL do Zero ao Avançado",
-    "image": "assets/images/certificates/banco-dados-sql.jpg",
-    "learned": "Criação e manipulação de bancos de dados relacionais, consultas SQL, JOINs e otimização de queries."
-  },
-  {
-    "title": "Configuração do Ambiente de Desenvolvimento em Java",
-    "image": "assets/images/certificates/java-ambiente.jpg",
-    "learned": "Instalação e configuração do JDK, IDEs e ferramentas essenciais para desenvolvimento Java."
-  },
-  {
-    "title": "Java SE – Polimorfismo e Orientação a Objetos",
-    "image": "assets/imagens/certificates/Java-SE-Polimorfismo-Projeto-e-Design-Orientados-a-Objetos.png",
-    "learned": "Aplicação de herança, polimorfismo, encapsulamento e boas práticas em Java."
-  },
-  {
-    "title": "Java para Iniciantes – Projetos do Mundo Real",
-    "image": "assets/images/certificates/java-iniciantes.jpg",
-    "learned": "Desenvolvimento de aplicações práticas em Java aplicando conceitos fundamentais."
-  },
-  {
-    "title": "Teste Unitário em Java com JUnit",
-    "image": "assets/images/certificates/junit.jpg",
-    "learned": "Criação de testes automatizados utilizando JUnit e boas práticas de testes unitários."
-  },
-  {
-    "title": "Introdução ao Sistema Operacional Linux",
-    "image": "assets/imagens/certificates/Introdução-ao-Sistema-Operacional-Linux.png",
-    "learned": "Fundamentos do Linux, navegação em diretórios e comandos básicos."
-  },
-  {
-    "title": "Terminal de Comandos Linux",
-    "image": "assets/images/certificates/linux-terminal.jpg",
-    "learned": "Uso avançado do terminal, manipulação de arquivos, permissões e automação básica."
-  },
-  {
-    "title": "Domine o Linux, Redes e Segurança",
-    "image": "assets/images/certificates/linux-avancado.jpg",
-    "learned": "Administração de sistemas Linux, fundamentos de redes e práticas básicas de segurança."
-  },
-  {
-    "title": "Monitoramento de Rede – PRTG Network Monitor",
-    "image": "assets/images/certificates/prtg.jpg",
-    "learned": "Monitoramento de dispositivos e tráfego de rede utilizando PRTG."
-  },
-  {
-    "title": "Aprendendo Redes de Computadores na Prática",
-    "image": "assets/images/certificates/redes.jpg",
-    "learned": "Fundamentos de redes, protocolos TCP/IP, configuração e diagnóstico de rede."
-  },
-  {
-    "title": "Como Obter Recolocação Profissional ou Promoção",
-    "image": "assets/images/certificates/recolocacao.jpg",
-    "learned": "Estratégias de posicionamento profissional, currículo, entrevistas e networking."
-  },
-  {
-    "title": "Inteligência Emocional – 5 Pilares do Sucesso",
-    "image": "assets/images/certificates/inteligencia-emocional.jpg",
-    "learned": "Autoconsciência, autorregulação, empatia e habilidades sociais aplicadas ao ambiente profissional."
-  },
-  {
-    "title": "Como Ser um Profissional de Resultados",
-    "image": "assets/images/certificates/profissional-resultados.jpg",
-    "learned": "Produtividade, foco em metas e desenvolvimento de mentalidade orientada a resultados."
-  },
-  {
-    "title": "Gestão de Carreira e Crescimento Profissional",
-    "image": "assets/images/certificates/carreira.jpg",
-    "learned": "Planejamento de carreira, definição de objetivos e desenvolvimento contínuo."
-  },
-  {
-    "title": "Dev Quest Starter",
-    "image": "assets/imagens/certificates/dev-quest.png",
-    "learned": "Fundamentos de desenvolvimento front-end com HTML, CSS e JavaScript."
-  },
-  {
-    "title": "Semana do Zero ao Programador Contratado – Dev em Dobro",
-    "image": "assets/imagens/certificates/semana-do-zero-ao-programador.png",
-    "learned": "Construção de projetos práticos, lógica de programação e estruturação de portfólio."
-  },
-  {
-    "title": "Imersão Dev – Alura (7ª Edição)",
-    "image": "assets/imagens/certificates/imersão-dev.png",
-    "learned": "Criação de aplicações web interativas com JavaScript, HTML e CSS."
-  },
-  {
     "title": "Acelerador de Carreira com Power BI",
     "image": "assets/imagens/certificates/acelerador-de-carreira-power-Bi.png",
     "learned": "Criação de dashboards, modelagem de dados e visualização estratégica com Power BI."
   },
   {
-    "title": "Ada – Trilha Digital Cloders – Engenharia de Dados",
+    "title": "Análise de Dados com Python",
+    "image": "assets/imagens/certificates/Análise-de-Dados-com-Python.png",
+    "learned": "Fundamentos da análise de dados utilizando Python e bibliotecas como Pandas."
+  },
+  {
+    "title": "Análise de Investimentos",
+    "image": "assets/imagens/certificates/analise-de-investimento.png",
+    "learned": "Avaliação de investimentos, indicadores financeiros e análise de viabilidade."
+  },
+  {
+    "title": "Autocoaching",
+    "image": "assets/imagens/certificates/AUTOCOACHING.png",
+    "learned": "Autoconhecimento, metas pessoais e planejamento de desenvolvimento."
+  },
+  {
+    "title": "Banco de Dados",
+    "image": "assets/imagens/certificates/BANCO-DE-DADOS.png",
+    "learned": "Fundamentos de banco de dados e modelagem relacional."
+  },
+  {
+    "title": "Capital de Giro e Análise Financeira",
+    "image": "assets/imagens/certificates/CAPITAL-DE-GIRO-E-ANALISE-FINANCEIRA.png",
+    "learned": "Fluxo de caixa, indicadores financeiros e gestão empresarial."
+  },
+  {
+    "title": "Coaching e Liderança",
+    "image": "assets/imagens/certificates/COACHING-E-LIDERANÇA.png",
+    "learned": "Liderança, desenvolvimento de equipes e inteligência emocional."
+  },
+  {
+    "title": "Comunicação Assertiva e Negociação",
+    "image": "assets/imagens/certificates/COMUNICAÇÃO-ASSERTIVA-E-NEGOCIAÇÃO.png",
+    "learned": "Comunicação clara, escuta ativa e técnicas de negociação."
+  },
+  {
+    "title": "Configuração do Ambiente de Desenvolvimento Java",
+    "image": "assets/imagens/certificates/Configurando-o-ambiente-de-desenvolvimento-java.png",
+    "learned": "Instalação e configuração do ambiente Java e ferramentas essenciais."
+  },
+  {
+    "title": "Banco de Dados SQL",
+    "image": "assets/imagens/certificates/Curso-Banco-de-Dados-SQL.jpg",
+    "learned": "Consultas SQL, JOINs e manipulação de dados relacionais."
+  },
+  {
+    "title": "Dev Quest",
+    "image": "assets/imagens/certificates/dev-quest.png",
+    "learned": "Fundamentos de HTML, CSS e JavaScript."
+  },
+  {
+    "title": "Espanhol – Vocabulário Essencial",
+    "image": "assets/imagens/certificates/ESPANHOL-VOCABULÁRIO-ESSENCIAL.png",
+    "learned": "Vocabulário essencial da língua espanhola."
+  },
+  {
+    "title": "Estruturas de Dados em Python",
+    "image": "assets/imagens/certificates/ESTRUTURAS-DE-DADOS-EM-PYTHON.png",
+    "learned": "Listas, dicionários, tuplas e conjuntos."
+  },
+  {
+    "title": "Excel",
+    "image": "assets/imagens/certificates/exel.png",
+    "learned": "Funções, planilhas e análise básica de dados."
+  },
+  {
+    "title": "Finanças Pessoais e Investimentos",
+    "image": "assets/imagens/certificates/FINANÇAS-PESSOAIS-E-INVESTIMENTOS.png",
+    "learned": "Planejamento financeiro e organização de investimentos."
+  },
+  {
+    "title": "Fundamentos do Scrum",
+    "image": "assets/imagens/certificates/Fundamentos-do-Scrum.jpg",
+    "learned": "Papéis, eventos e artefatos do Scrum."
+  },
+  {
+    "title": "Gestão de Metas e Indicadores de Performance",
+    "image": "assets/imagens/certificates/GESTÃO-DE-METAS-E-INDICADORES-DE-PERFORMANCE.png",
+    "learned": "Definição de metas SMART e KPIs."
+  },
+  {
+    "title": "Imersão Dev",
+    "image": "assets/imagens/certificates/imersão-dev.png",
+    "learned": "Desenvolvimento web com HTML, CSS e JavaScript."
+  },
+  {
+    "title": "Inteligência Emocional – 5 Pilares",
+    "image": "assets/imagens/certificates/Inteligência-Emocional-5-Pilares-para-sucesso-profissional.png",
+    "learned": "Autoconsciência, empatia e habilidades sociais."
+  },
+  {
+    "title": "Introdução à Análise de Dados com Python",
+    "image": "assets/imagens/certificates/introdução-analise-de-dados-com-python.png",
+    "learned": "Manipulação e limpeza de dados com Pandas."
+  },
+  {
+    "title": "Introdução ao Sistema Operacional Linux",
+    "image": "assets/imagens/certificates/Introdução-ao-Sistema-Operacional-Linux.png",
+    "learned": "Comandos básicos e navegação no Linux."
+  },
+  {
+    "title": "Introdução a Scrum e Kanban",
+    "image": "assets/imagens/certificates/Introdução-scrum-kanban-Curso-express.png",
+    "learned": "Mentalidade ágil e gestão de tarefas."
+  },
+  {
+    "title": "Java SE – Polimorfismo e POO",
+    "image": "assets/imagens/certificates/Java-SE-Polimorfismo-Projeto-e-Design-Orientados-a-Objetos.png",
+    "learned": "Herança, polimorfismo e boas práticas em Java."
+  },
+  {
+    "title": "Liderança",
+    "image": "assets/imagens/certificates/liderança.png",
+    "learned": "Desenvolvimento de liderança e gestão de equipes."
+  },
+  {
+    "title": "Liderança e Desenvolvimento de Equipes",
+    "image": "assets/imagens/certificates/LIDERANÇA-E-DESENVOLVIME-TO-DE-EQUIPES.png",
+    "learned": "Gestão de pessoas e formação de times de alta performance."
+  },
+  {
+    "title": "Língua Espanhola I",
+    "image": "assets/imagens/certificates/LÍNGUA-ESPANHOLA-I.png",
+    "learned": "Gramática básica e conversação."
+  },
+  {
+    "title": "Língua Espanhola II",
+    "image": "assets/imagens/certificates/LÍNGUA-ESPANHOLA-II.png",
+    "learned": "Conversação intermediária e leitura."
+  },
+  {
+    "title": "Mercado de Capitais",
+    "image": "assets/imagens/certificates/MERCADO-DE-CAPITAIS.png",
+    "learned": "Funcionamento da bolsa e investimentos."
+  },
+  {
+    "title": "Modelos de Gestão",
+    "image": "assets/imagens/certificates/MODELOS-DE-GESTAO.png",
+    "learned": "Metodologias tradicionais e ágeis."
+  },
+  {
+    "title": "Os Fundamentos do Scrum",
+    "image": "assets/imagens/certificates/Os-Fundamentos-do-Scrum.png",
+    "learned": "Aplicação prática do Scrum."
+  },
+  {
+    "title": "Semana do Zero ao Programador",
+    "image": "assets/imagens/certificates/semana-do-zero-ao-programador.png",
+    "learned": "Projetos práticos e lógica de programação."
+  },
+  {
+    "title": "Shark Evolution – Desenvolvimento Web",
+    "image": "assets/imagens/certificates/shark-evolution.jpeg",
+    "learned": "Aplicações web com JavaScript moderno."
+  },
+  {
+    "title": "Terminal Linux",
+    "image": "assets/imagens/certificates/Terminal-Linux.png",
+    "learned": "Uso de comandos e administração básica."
+  },
+  {
+    "title": "Trilha Digital Cloders – Engenharia de Dados",
     "image": "assets/imagens/certificates/trilha-digital-cloders-engelharia-de-dados.png",
-    "learned": "Formação em tecnologia com foco em programação, lógica computacional e desenvolvimento profissional."
-  }
+    "learned": "Formação em programação e engenharia de dados."
+  },
+  { 
+  
+  "title": "Gestão de Carreira",
+  "image": "assets/imagens/certificates/GESTÃO-DE-CARREIRA.png",
+  "learned": "Planejamento estratégico de carreira, definição de metas profissionais, posicionamento no mercado, desenvolvimento contínuo de competências e construção de marca pessoal."
+},
+{
+  "title": "Lógica de Programação: começando a desenvolver seus primeiros programas",
+  "image": "assets/imagens/certificates/Lógica-de-Programação.png",
+  "learned": "Fundamentos de lógica de programação, uso do Portugol Studio, entrada e saída de dados, variáveis, operadores aritméticos e desenvolvimento dos primeiros algoritmos."
+},
+{
+  "title": "Banco de Dados 1: fundamentos",
+  "image": "assets/imagens/certificates/Banco-de-Dados.png",
+  "learned": "Conceitos fundamentais de banco de dados, modelagem de dados, modelo relacional e normalização para organização eficiente das informações."
+}
+  
+
 ]
