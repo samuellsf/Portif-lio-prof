@@ -9,7 +9,7 @@
   padding: 30px 40px;
 
   background-image:
-    linear-gradient(135deg, rgba(2, 6, 23, 0.75), rgba(2, 6, 23, 0.75)),
+    linear-gradient(135deg, rgba(1, 10, 41, 0.619), rgba(2, 7, 34, 0.918)),
     url("../assets/imagens/banner.portifolio.png");
     
    background-size: contain;   
@@ -36,9 +36,8 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 10px;
+  padding: 4px 10px;
   border-radius: 18px;
-  background: rgba(56, 189, 248, 0.12);
   font-size: 0.85rem;
   color: #cbd5e1;
   transform: translateY(-4px); 
