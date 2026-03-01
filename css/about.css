@@ -1,37 +1,188 @@
-/* SEÇÃO SOBRE */
-
-
+/* =========================
+   ABOUT.CSS
+========================= */
 
 .about-grid {
   max-width: 1200px;
-  margin: auto;
+  margin: 80px auto 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .about-media {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+}
+
+.about-text {
+  padding: 18px;
+  max-width: 540px;
+  margin: 30px auto 0; 
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.15);
+  color: #e5e7eb;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #cbd5f5;
+}
+
+.about-text a {
+  color: #38bdf8;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.about-text a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   JOGO
+========================= */
+
+.about-game {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  text-align: center;
+  position: relative;
+}
+
+/* ===== TOP BAR (DIFICULDADE + TEMA) ===== */
+.game-top {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+/* ===== BOTÕES / SELECTS ===== */
+.game-top select {
+  background: #050816;
+  color: #e5e7eb;
+  border: 2px solid var(--glow);
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(0, 240, 255, 0.35);
+  transition: all 0.3s ease;
+}
+
+.game-top select:hover {
+  background: var(--glow);
+  color: #000;
+  box-shadow: 0 0 18px var(--glow);
+}
+
+.game-top select:focus {
+  outline: none;
+  box-shadow: 0 0 22px var(--glow);
+}
+
+/* ===== CANVAS ===== */
+#mazeCanvas {
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 12 / 9;
+  background: #050816;
+  border-radius: 15px;
+  border: 2px solid var(--glow);
+  box-shadow: 0 0 20px var(--glow);
+}
+
+/* ===== INFO ===== */
+.game-info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 25px;
+  color: white;
 }
 
-.about-video {
-  width: 100%;
-  max-width: 520px;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+.game-info button {
+  background: #111;
+  border: 2px solid var(--glow);
+  color: var(--glow);
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px var(--glow);
+  transition: 0.3s;
 }
 
-.about-video video {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
+.game-info button:hover {
+  background: var(--glow);
+  color: #000;
 }
+
+/* ===== CONTROLES MOBILE ===== */
+.mobile-controls {
+  margin-top: 15px;
+}
+
+.mobile-controls button {
+  background: #111;
+  border: 2px solid var(--glow);
+  color: var(--glow);
+  font-size: 18px;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px var(--glow);
+  transition: 0.3s;
+}
+
+.mobile-controls button:hover {
+  background: var(--glow);
+  color: #000;
+}
+
+/* ===== VITÓRIA ===== */
+.victory {
+  display: none;
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  animation: pop 0.6s ease;
+}
+
+.victory.show {
+  display: flex;
+}
+
+@keyframes pop {
+  from { transform: scale(0.8); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+/* ===== RANKING ===== */
+.ranking {
+  margin-top: 20px;
+  color: #cbd5f5;
+}
+
+/* =========================
+   TECNOLOGIAS
+========================= */
 
 .tech-title {
   color: #e5e7eb;
@@ -57,72 +208,44 @@
   filter: brightness(1.15);
 }
 
+/* =========================
+   TEMAS
+========================= */
 
-.about-text {
-  color: #e5e7eb;
+:root {
+  --wall: #001f3f;
+  --path: #050816;
+  --goal: #00f0ff;
+  --glow: #00f0ff;
 }
 
-.about-text h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #ffffff;
+.theme-green {
+  --goal: #00ff99;
+  --glow: #00ff99;
 }
 
-.about-text p {
-  font-size: 1rem;
-  line-height: 1.8;
-  color: #cbd5f5;
+.theme-purple {
+  --goal: #a855f7;
+  --glow: #a855f7;
 }
 
-.about-text a {
-  color: #38bdf8;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.about-text a:hover {
-  text-decoration: underline;
-}
+/* =========================
+   RESPONSIVO
+========================= */
 
 @media (max-width: 1024px) {
   .about-grid {
     grid-template-columns: 1fr;
     text-align: center;
   }
-
-  .about-text h2 {
-    font-size: 1.8rem;
-  }
-
-  .about-text p {
-    font-size: 0.95rem;
-  }
 }
 
 @media (max-width: 600px) {
-  .about {
-    padding: 60px 15px;
-  }
-
-  .about-video {
-    max-width: 100%;
-  }
-
-  .tech-title {
-    font-size: 1.1rem;
-  }
-
-  .about-text h2 {
-    font-size: 1.6rem;
+  .game-top {
+    flex-direction: column;
   }
 
   .about-text p {
-    font-size: 0.92rem;
     text-align: justify;
-  }
-}
-@media (max-width: 360px) {
-  .contact-info p {
-    font-size: 1rem;
   }
 }

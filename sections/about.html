@@ -2,16 +2,52 @@
   <div class="about-grid">
 
     <div class="about-media">
+<div class="about-game">
 
-      <div class="about-video">
-        <video
-          src="assets/imagens/video/Gravação de Tela 2026-01-15 200834.mp4"
-          autoplay
-          muted
-          loop
-          playsinline
-        ></video>
-      </div>
+  <div class="game-top">
+    <select id="difficulty" onchange="changeDifficulty()">
+      <option value="easy">Fácil</option>
+      <option value="medium">Médio</option>
+      <option value="hard">Difícil</option>
+    </select>
+
+    <select id="theme" onchange="changeTheme()">
+      <option value="neon">Neon</option>
+      <option value="green">Verde</option>
+      <option value="purple">Roxo</option>
+    </select>
+  </div>
+
+  <canvas id="mazeCanvas"></canvas>
+
+  <div class="mobile-controls">
+    <button onclick="move('up')">⬆</button>
+    <div>
+      <button onclick="move('left')">⬅</button>
+      <button onclick="move('down')">⬇</button>
+      <button onclick="move('right')">➡</button>
+    </div>
+  </div>
+
+  <div class="game-info">
+    <span id="status">um joguinho pra passar o tempo 🎮</span>
+    <span>⏱️ <strong id="time">0</strong>s</span>
+    <span>🎯 <strong id="moves">0</strong></span>
+    <button onclick="restartMaze()">Reiniciar</button>
+  </div>
+
+  <div id="victory" class="victory">
+    <h2>🎉 Vitória!</h2>
+    <p id="victoryText"></p>
+    <button onclick="restartMaze()">Jogar novamente</button>
+  </div>
+
+  <div class="ranking">
+    <h3>🏅 Ranking</h3>
+    <ol id="rankingList"></ol>
+  </div>
+
+</div>
 
       <h3 class="tech-title">💻 Ferramentas e Tecnologias</h3>
 
