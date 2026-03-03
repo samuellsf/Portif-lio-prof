@@ -179,12 +179,6 @@
   "title": "Lógica de Programação: começando a desenvolver seus primeiros programas",
   "image": "assets/imagens/certificates/Lógica-de-Programação.png",
   "learned": "Fundamentos de lógica de programação, uso do Portugol Studio, entrada e saída de dados, variáveis, operadores aritméticos e desenvolvimento dos primeiros algoritmos."
-},
-{
-  "title": "Banco de Dados 1: fundamentos",
-  "image": "assets/imagens/certificates/Banco-de-Dados.png",
-  "learned": "Conceitos fundamentais de banco de dados, modelagem de dados, modelo relacional e normalização para organização eficiente das informações."
 }
-  
-
 ]
+
