@@ -114,6 +114,8 @@
 
 .game-info button {
   background: #111;
+   padding:10px 18px;
+  margin:5px;
   border: 2px solid var(--glow);
   color: var(--glow);
   font-size: 16px;
@@ -123,6 +125,7 @@
   box-shadow: 0 0 10px var(--glow);
   transition: 0.3s;
 }
+
 
 .game-info button:hover {
   background: var(--glow);
