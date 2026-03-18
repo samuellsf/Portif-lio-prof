@@ -1,7 +1,21 @@
 // ===== CONFIG =====
+let playerImg = new Image();
+
+playerImg.onload = () => {
+  drawMaze(); 
+};
+
+playerImg.src = "assets/imagens/naruto-z.webp";
+
+let goalImg = new Image();
+
+goalImg.onload = () => {
+  drawMaze();
+};
+
+goalImg.src = "assets/imagens/naruto-kurama.webp"; 
 
 let canvas, ctx;
-
 let tileSize = 20;
 let rows = 15;
 let cols = 20;
@@ -9,6 +23,7 @@ let cols = 20;
 let maze = [];
 let player = { x: 1, y: 1 };
 
+let direction = "right";
 let moves = 0;
 let time = 0;
 
@@ -37,9 +52,10 @@ function initMaze(){
   }
 
   ctx = canvas.getContext("2d");
-
+ newMaze();
   resetGame();
   loadRanking();
+  
 
 }
 
@@ -50,7 +66,7 @@ function startGame(){
 
   resetGame();
 
-  startTimer(); // inicia o cronômetro
+  startTimer(); 
 
   document.getElementById("status").innerText =
   "Jogo iniciado! Encontre a saída 🎮";
@@ -62,6 +78,13 @@ function startGame(){
 
 function resetGame(){
 
+  const confirmar = confirm("Deseja também zerar o ranking?");
+
+  if(confirmar){
+    localStorage.removeItem("mazeScores");
+    loadRanking();
+  }
+
   clearInterval(timer);
 
   timer = null;
@@ -71,11 +94,13 @@ function resetGame(){
 
   updateUI();
 
+}
+function newMaze(){
+
   generateMaze();
   drawMaze();
 
 }
-
 
 // ===== TIMER =====
 
@@ -158,32 +183,74 @@ function drawMaze(){
 
   for(let y=0;y<rows;y++){
     for(let x=0;x<cols;x++){
+if(maze[y][x]===1){
 
-      if(maze[y][x]===1) ctx.fillStyle = wall;
-      else if(maze[y][x]===2) ctx.fillStyle = goal;
-      else ctx.fillStyle = path;
+  ctx.fillStyle = wall;
+  ctx.fillRect(x*tileSize,y*tileSize,tileSize,tileSize);
 
-      ctx.fillRect(
-        x*tileSize,
-        y*tileSize,
-        tileSize,
-        tileSize
-      );
+}
+else if(maze[y][x]===2){
 
-    }
-  }
+  
+  ctx.fillStyle = path;
+  ctx.fillRect(x*tileSize,y*tileSize,tileSize,tileSize);
 
-  ctx.fillStyle = "#ffffff";
+ 
+ ctx.drawImage(
+  goalImg,
+  x * tileSize - 5,
+  y * tileSize - 5,
+  tileSize + 10,
+  tileSize + 10
+);
+}
+else{
 
-  ctx.fillRect(
-    player.x*tileSize,
-    player.y*tileSize,
-    tileSize,
-    tileSize
-  );
+  ctx.fillStyle = path;
+  ctx.fillRect(x*tileSize,y*tileSize,tileSize,tileSize);
 
 }
 
+    }
+  }
+drawPlayer();
+
+}
+// ===== DESENHAR JOGADOR =====
+function drawPlayer(){
+
+  const px = player.x * tileSize;
+  const py = player.y * tileSize;
+
+  ctx.save();
+
+  
+  ctx.shadowColor = "#f70101";
+  ctx.shadowBlur = 15;
+
+  
+  ctx.translate(px + tileSize/2, py + tileSize/2);
+
+  let angle = 0;
+
+  if(direction==="up") angle = -Math.PI/2;
+  if(direction==="down") angle = Math.PI/2;
+  if(direction==="left") angle = Math.PI;
+  if(direction==="right") angle = 0;
+
+  ctx.rotate(angle);
+
+  ctx.drawImage(
+    playerImg,
+    -tileSize/2 + 2,
+    -tileSize/2 + 2,
+    tileSize - 4,
+    tileSize - 4
+  );
+
+  ctx.restore();
+
+}
 
 // ===== MOVIMENTO =====
 
@@ -195,6 +262,11 @@ function movePlayer(dir){
   if(dir==="down") y++;
   if(dir==="left") x--;
   if(dir==="right") x++;
+  
+  if(dir==="up") direction = "up";
+if(dir==="down") direction = "down";
+if(dir==="left") direction = "left";
+if(dir==="right") direction = "right";
 
   if(!maze[y] || maze[y][x]===1) return;
 
