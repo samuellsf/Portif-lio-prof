@@ -81,6 +81,43 @@
   transition: all 0.3s ease;
 }
 
+/* =========================
+   BOTÕES DO JOGO
+========================= */
+.game-buttons {
+  display: flex; 
+  gap: 12px; 
+  justify-content: center; 
+  flex-wrap: wrap;  
+  margin-top: 10px;
+}
+
+.game-buttons button {
+  background: #111;
+  border: 2px solid var(--glow);
+  color: var(--glow);
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px var(--glow);
+  transition: 0.3s;
+}
+
+.game-buttons button:hover {
+  background: var(--glow);
+  color: #000;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 500px) {
+  .game-buttons {
+    flex-direction: column;
+    align-items: center; 
+    gap: 8px;  
+  }
+}
+
 .game-top select:hover {
   background: var(--glow);
   color: #000;
