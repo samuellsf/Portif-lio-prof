@@ -2,57 +2,76 @@
   <div class="about-grid">
 
     <div class="about-media">
-<div class="about-game">
+      <div class="about-game">
 
-  <div class="game-top">
-    <select id="difficulty" onchange="changeDifficulty()">
-      <option value="easy">Fácil</option>
-      <option value="medium">Médio</option>
-      <option value="hard">Difícil</option>
-    </select>
+        <div class="game-top">
+          <select id="difficulty" onchange="changeDifficulty()">
+            <option value="easy">Fácil</option>
+            <option value="medium">Médio</option>
+            <option value="hard">Difícil</option>
+          </select>
 
-    <select id="theme" onchange="changeTheme()">
-      <option value="neon">Neon</option>
-      <option value="green">Verde</option>
-      <option value="purple">Roxo</option>
-    </select>
-  </div>
+          <select id="theme" onchange="changeTheme()">
+            <option value="neon">Neon</option>
+            <option value="green">Verde</option>
+            <option value="purple">Roxo</option>
+          </select>
+        </div>
 
-  <canvas id="mazeCanvas"></canvas>
+        <canvas id="mazeCanvas"></canvas>
 
-  <div class="mobile-controls">
-    <button onclick="move('up')">⬆</button>
-    <div>
-      <button onclick="move('left')">⬅</button>
-      <button onclick="move('down')">⬇</button>
-      <button onclick="move('right')">➡</button>
+    
+        <div class="mobile-controls">
+          <button onclick="move('up')">⬆</button>
+          <div>
+            <button onclick="move('left')">⬅</button>
+            <button onclick="move('down')">⬇</button>
+            <button onclick="move('right')">➡</button>
+          </div>
+        </div>
+
+   
+        <div class="game-info">
+          <span id="status">um joguinho pra passar o tempo 🎮</span>
+          <span>⏱️ <strong id="time">0</strong>s</span>
+          <span>🎯 <strong id="moves">0</strong></span>
+        </div>
+
+        <div class="game-buttons">
+          <button onclick="startGame()">🎮 Iniciar</button>
+          <button onclick="newMaze()">Novo Labirinto</button>
+        <button class="btn-restart" onclick="restartMazeAndClearRanking()">
+  Reiniciar Jogo
+</button>
+        </div>
+
+  
+        <div id="victory" class="victory">
+          <h2>🎉 Vitória!</h2>
+          <p id="victoryText"></p>
+          <button onclick="restartMaze()">Jogar novamente</button>
+        </div>
+
+
+        <div class="ranking">
+          <h3>🏅 Ranking</h3>
+          <ol id="rankingList"></ol>
+        </div>
+
+      </div>
     </div>
-  </div>
 
-<div class="game-info">
-  <span id="status">um joguinho pra passar o tempo 🎮</span>
-  <span>⏱️ <strong id="time">0</strong>s</span>
-  <span>🎯 <strong id="moves">0</strong></span>
+   
+    <div class="about-text">
+      <h2>👨‍💻 Sobre mim</h2>
 
-</div>
-<div class="game-buttons">
-  <button onclick="startGame()">🎮 Iniciar</button>
-  <button onclick="newMaze()">Novo Labirinto</button>
-  <button onclick="restartMazeAndClearRanking()">Reiniciar Jogo</button>
-</div>
-
-  <div id="victory" class="victory">
-    <h2>🎉 Vitória!</h2>
-    <p id="victoryText"></p>
-    <button onclick="restartMaze()">Jogar novamente</button>
-  </div>
-
-  <div class="ranking">
-    <h3>🏅 Ranking</h3>
-    <ol id="rankingList"></ol>
-  </div>
-
-</div>
+      <p>
+        🎓 Olá! Sou <strong>Samuel</strong>,estudante de Análise e Desenvolvimento de Sistemas (5º semestre), com foco em desenvolvimento web e boas práticas de mercado.
+        <br><br>
+        Participei do projeto Instituto LLAM Tecnologia do Brasil (2023–2025), onde atuei com modelagem de dados, SQL/MySQL, desenvolvimento web (HTML, CSS, JavaScript, React e Java), versionamento com Git e metodologias ágeis (Scrum).
+        <br><br>
+        Atualmente estou em transição para a área de tecnologia, buscando minha primeira oportunidade como desenvolvedor, aplicando na prática conhecimentos em front-end e back-end para criar soluções modernas e eficientes.
+      </p>
 
       <h3 class="tech-title">💻 Ferramentas e Tecnologias</h3>
 
@@ -74,19 +93,7 @@
         <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-0078D7?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
       </div>
 
-    </div> 
+    </div>
 
-    <div class="about-text">
-      <h2>👨‍💻 Sobre mim</h2>
-
-<p>
-🎓 Olá! Sou Samuel, estudante de Análise e Desenvolvimento de Sistemas (5º semestre), com foco em desenvolvimento web e boas práticas de mercado.
-
- Participei do projeto Instituto LLAM Tecnologia do Brasil (2023–2025), onde atuei com modelagem de dados, SQL/MySQL, desenvolvimento web (HTML, CSS, JavaScript, React e Java), versionamento com Git e metodologias ágeis (Scrum).
-
- Atualmente estou em transição para a área de tecnologia, buscando minha primeira oportunidade como desenvolvedor, aplicando na prática conhecimentos em front-end e back-end para criar soluções modernas e eficientes.
-</p>
-
-  
   </div>
 </section>

@@ -13,14 +13,18 @@
    GRID
 ========================= */
 
+.about {
+  padding: 60px 20px;
+  color: #fff;
+}
+
 .about-grid {
-  max-width: 1200px;
-  margin: 80px auto 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 60px;
-   align-items: start;
+  gap: 40px;
+  align-items: center;
 }
+
 
 button:active {
   transform: scale(0.95);
@@ -29,44 +33,44 @@ button:active {
 /* =========================
    TEXTO
 ========================= */
+.about-text {
+  padding: 70px;
+  border-radius: 20px;
+background: rgba(5, 4, 4, 0.261);
+  backdrop-filter: blur(12px);
 
-.about-media {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  border: 1px solid rgba(0,240,255,0.2);
+
+  box-shadow: 0 0 25px rgba(0, 15, 16, 0.15);
+
+  transition: 0.3s;
+  position: relative;
 }
 
-.about-text {
-  padding: 18px;
-  max-width: 540px;
-  margin: 10px auto 0;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.15);
-  color: #e5e7eb;
-  background: rgba(255,255,255,0.02);
-  backdrop-filter: blur(8px);
+.about-text:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
 }
 
 .about-text h2 {
-  font-size: 2rem;
-  margin-bottom: 5px;
-  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 .about-text p {
-  font-size: 1rem;
-  line-height: 1.8;
-  color: #cbd5f5;
+  line-height: 1.7;
+  color: #cbd5e1;
+  font-size: 16px;
 }
 
-.about-text a {
-  color: #38bdf8;
-  font-weight: 500;
-  text-decoration: none;
+.about-text strong {
+  color: #1976d2;
 }
 
-.about-text a:hover {
-  text-decoration: underline;
+.about-text p br {
+  display: block;
+  margin-bottom: 10px;
 }
 
 /* =========================
@@ -80,22 +84,24 @@ button:active {
   text-align: center;
   position: relative;
 
-  background: linear-gradient(145deg, #050816, #0a0f2c);
-  border-radius: 16px;
-  padding: 16px;
-  border: 1px solid rgba(0,240,255,0.2);
-  box-shadow: 0 0 25px rgba(0, 240, 255, 0.15);
-  backdrop-filter: blur(10px);
-  overflow: hidden;
+  padding: 20px;
+  border-radius: 20px;
+
+.about-game {
+  background: rgba(5, 4, 4, 0.15); 
+  backdrop-filter: blur(8px); 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+  border: 1px solid rgba(255, 255, 255, 0.05); 
+}
+  transform: translateY(0);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.about-game::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at top, rgba(0,240,255,0.15), transparent 70%);
-  pointer-events: none;
+.about-game:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
 }
+
 
 /* ===== TOP ===== */
 
@@ -132,19 +138,20 @@ button:active {
   gap: 12px;
   flex-wrap: wrap;
   margin-top: 10px;
+  
 }
 
 .game-buttons button {
   flex: 1;
-  min-width: 120px;
-  background: linear-gradient(135deg, var(--glow), #1976d2);
+  min-width: 100px;
+  background: linear-gradient(135deg, var(--glow), #4997e0);
   border: none;
   color: #000;
   font-weight: bold;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 0 15px var(--glow);
+  box-shadow: 0 0 2px var(--glow);
   transition: 0.3s;
 }
 
@@ -155,6 +162,13 @@ button:active {
 .game-buttons button:active {
   transform: scale(0.92);
   box-shadow: 0 0 5px var(--glow);
+}
+
+.btn-restart {
+  flex: 0 !important; 
+  min-width: auto !important;
+  padding: 6px 10px !important;
+  font-size: 13px;
 }
 
 /* ===== CANVAS ===== */
@@ -287,6 +301,13 @@ button:active {
   padding: 4px;
 }
 
+.tech-icons img {
+  transition: 0.3s;
+}
+
+.tech-icons img:hover {
+  transform: scale(1.1);
+}
 .tech-title {
   color: #fff;
   text-align: center;
@@ -314,6 +335,26 @@ button:active {
   }
 }
 
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .about-media,
+  .about-text {
+    width: 100%;
+  }
+
+  .about-text {
+    order: 1;
+  }
+
+  .about-media {
+    order: 2;
+  }
+}
+
 @media (max-width: 768px) {
   .about-grid {
     grid-template-columns: 1fr; 
@@ -329,14 +370,19 @@ button:active {
 }
 
 @media (max-width: 600px) {
-  .about-grid {
-    gap: 20px;
+  .btn-restart {
+    padding: 4px 8px !important;
+    font-size: 11px;
+  }
+
+  .about-text {
+    padding: 5px;
   }
 
   .about-game {
     width: 100%;
     max-width: 100%;
-    padding: 10px;
+    padding: 5px;
   }
 
   #mazeCanvas {
@@ -347,7 +393,7 @@ button:active {
   .victory {
     width: 90%;
     max-width: 260px;
-    padding: 15px;
+    padding: 10px;
   }
 
   .victory h2 {
@@ -367,7 +413,7 @@ button:active {
 @media (max-width: 320px) {
   .victory {
     max-width: 180px;
-    padding: 10px;
+    padding: 5px;
   }
 
   .victory h2 {
@@ -380,6 +426,6 @@ button:active {
 
   .victory button {
     font-size: 0.8rem;
-    padding: 6px;
+    padding: 5px;
   }
 }
