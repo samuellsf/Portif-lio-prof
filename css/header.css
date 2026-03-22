@@ -10,7 +10,7 @@
   padding: 30px 40px;
 
   background-image:
-    linear-gradient(135deg, rgba(1, 3, 11, 0.85), rgba(2, 7, 34, 0.95)),
+    linear-gradient(135deg, rgba(0, 1, 5, 0.85), rgba(8, 16, 67, 0.95)),
     url("../assets/imagens/fundo-pot.jpg");
 
   background-size: cover;
@@ -74,7 +74,7 @@
   flex-direction: column;
   gap: 4px;
   align-items: flex-start;
-  margin-left: 0;
+  margin-left: 24px;
 }
 
 .hero-name {
@@ -97,10 +97,10 @@
 
 .hero-subtitle {
   font-size: 0.95rem;
-  color: #94a3b8;
+  color: #38bdf8; 
   letter-spacing: 1px;
   margin: 0;
-  animation-delay: 0.3s;
+
   opacity: 0;
   transform: translateY(20px);
   animation: subirFade 1s ease forwards;

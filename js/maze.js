@@ -1,10 +1,8 @@
 // ===== CONFIG =====
 let playerImg = new Image();
-playerImg.onload = () => drawMaze();
 playerImg.src = "assets/imagens/naruto-z.webp";
 
 let goalImg = new Image();
-goalImg.onload = () => drawMaze();
 goalImg.src = "assets/imagens/naruto-kurama.webp"; 
 
 let canvas, ctx;
@@ -37,6 +35,7 @@ function initMaze() {
     return;
   }
   ctx = canvas.getContext("2d");
+
   newMaze();
   resetGame(false); 
   loadRanking();
@@ -45,12 +44,13 @@ function initMaze() {
 // ===== INICIAR JOGO =====
 function startGame() {
   resetGame(false); 
-  startTimer(); 
+  startTimer();
+
   document.getElementById("status").innerText =
     "Jogo iniciado! Encontre a saída 🎮";
 }
 
-// ===== RESET JOGO (NÃO ZERA RANKING) =====
+// ===== RESET =====
 function resetGame(clearRanking = false){
   if(clearRanking){
     localStorage.removeItem("mazeScores");
@@ -63,11 +63,13 @@ function resetGame(clearRanking = false){
   moves = 0;
   timerStarted = false;
 
-  updateUI();
+  player = { x: 1, y: 1 };
 
+  updateUI();
+  drawMaze();
 }
 
-// ===== FUNÇÃO PARA REINICIAR E ZERAR RANKING =====
+// ===== REINICIAR + LIMPAR RANKING =====
 function restartMazeAndClearRanking(){
   if(confirm("Deseja realmente zerar o ranking?")){
     resetGame(true); 
@@ -85,6 +87,7 @@ function newMaze() {
 // ===== TIMER =====
 function startTimer(){
   if(timerStarted) return;
+
   timerStarted = true;
   timer = setInterval(()=>{
     time++;
@@ -122,27 +125,26 @@ function drawMaze(){
 
   const wall = cssVar("--wall");
   const path = cssVar("--path");
-  const goal = cssVar("--goal");
 
   for(let y=0;y<rows;y++){
     for(let x=0;x<cols;x++){
       if(maze[y][x]===1){
         ctx.fillStyle = wall;
         ctx.fillRect(x*tileSize,y*tileSize,tileSize,tileSize);
-      } else if(maze[y][x]===2){
-        ctx.fillStyle = path;
-        ctx.fillRect(x*tileSize,y*tileSize,tileSize,tileSize);
-        ctx.drawImage(goalImg, x*tileSize-5, y*tileSize-5, tileSize+10, tileSize+10);
       } else {
         ctx.fillStyle = path;
         ctx.fillRect(x*tileSize,y*tileSize,tileSize,tileSize);
+
+        if(maze[y][x]===2){
+          ctx.drawImage(goalImg, x*tileSize-5, y*tileSize-5, tileSize+10, tileSize+10);
+        }
       }
     }
   }
   drawPlayer();
 }
 
-// ===== DESENHAR JOGADOR =====
+// ===== JOGADOR =====
 function drawPlayer(){
   const px = player.x * tileSize;
   const py = player.y * tileSize;
@@ -156,7 +158,6 @@ function drawPlayer(){
   if(direction==="up") angle = -Math.PI/2;
   if(direction==="down") angle = Math.PI/2;
   if(direction==="left") angle = Math.PI;
-  if(direction==="right") angle = 0;
 
   ctx.rotate(angle);
   ctx.drawImage(playerImg, -tileSize/2 + 2, -tileSize/2 + 2, tileSize - 4, tileSize - 4);
@@ -181,34 +182,52 @@ function movePlayer(dir){
   document.getElementById("moves").innerText = moves;
 
   startTimer();
-  if(maze[y][x]===2) win();
+
+  if(maze[y][x]===2){
+    win();
+  }
+
   drawMaze();
 }
 
 // ===== VITÓRIA =====
 function win(){
   clearInterval(timer);
-  timerStarted=false;
+  timerStarted = false;
+
   saveScore();
-  document.getElementById("victoryText").innerText =
-    `Tempo: ${time}s | Movimentos: ${moves}`;
-  document.getElementById("victory").classList.add("show");
+
+  const victory = document.getElementById("victory");
+  const text = document.getElementById("victoryText");
+
+  text.innerHTML = `
+    🎉 Você venceu!<br>
+    ⏱️ Tempo: <strong>${time}s</strong><br>
+    🎯 Movimentos: <strong>${moves}</strong>
+  `;
+
+  setTimeout(() => {
+    victory.classList.add("show");
+  }, 200);
 }
 
-// ===== SALVAR SCORE =====
+// ===== SCORE =====
 function saveScore(){
   const scores = JSON.parse(localStorage.getItem("mazeScores") || "[]");
   scores.push({time,moves});
   scores.sort((a,b)=>a.time-b.time || a.moves-b.moves);
   localStorage.setItem("mazeScores", JSON.stringify(scores.slice(0,5)));
+  loadRanking();
 }
 
 // ===== RANKING =====
 function loadRanking(){
   const list = document.getElementById("rankingList");
   if(!list) return;
+
   list.innerHTML="";
   const scores = JSON.parse(localStorage.getItem("mazeScores") || "[]");
+
   scores.forEach(s=>{
     const li = document.createElement("li");
     li.textContent = `${s.time}s - ${s.moves} mov`;
@@ -219,10 +238,17 @@ function loadRanking(){
 // ===== DIFICULDADE =====
 function changeDifficulty(){
   const d = document.getElementById("difficulty").value;
-  if(d==="easy"){ rows=15; cols=20; }
-  if(d==="medium"){ rows=21; cols=28; }
-  if(d==="hard"){ rows=27; cols=36; }
-  resetGame(false); 
+
+  if(d==="easy"){
+    rows=15; cols=20;
+  } else if(d==="medium"){
+    rows=21; cols=28;
+  } else if(d==="hard"){
+    rows=27; cols=36;
+  }
+
+  resetGame(false);
+  newMaze();
 }
 
 // ===== CSS VAR =====
@@ -234,16 +260,19 @@ function cssVar(name){
 function changeTheme(){
   document.body.classList.remove("theme-green","theme-purple");
   const value = document.getElementById("theme").value;
+
   if(themes[value]){
     document.body.classList.add(themes[value]);
   }
+
   drawMaze();
 }
 
 // ===== UI =====
 function updateUI(){
-  document.getElementById("moves").innerText=0;
-  document.getElementById("time").innerText=0;
+  document.getElementById("moves").innerText = 0;
+  document.getElementById("time").innerText = 0;
+
   const v = document.getElementById("victory");
   if(v) v.classList.remove("show");
 }
@@ -255,7 +284,7 @@ document.addEventListener("keydown", e=>{
   }
 });
 
-// ===== EXPORTAR =====
+// ===== EXPORT =====
 window.move = movePlayer;
 window.restartMaze = resetGame;
 window.restartMazeAndClearRanking = restartMazeAndClearRanking;

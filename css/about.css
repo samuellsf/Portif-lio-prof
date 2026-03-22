@@ -2,14 +2,33 @@
    ABOUT.CSS
 ========================= */
 
+:root {
+  --wall: #001f3f;
+  --path: #050816;
+  --goal: #00f0ff;
+  --glow: #00f0ff;
+}
+
+/* =========================
+   GRID
+========================= */
+
 .about-grid {
   max-width: 1200px;
   margin: 80px auto 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
-  align-items: flex-start;
+  gap: 60px;
+   align-items: start;
 }
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* =========================
+   TEXTO
+========================= */
 
 .about-media {
   display: flex;
@@ -20,10 +39,12 @@
 .about-text {
   padding: 18px;
   max-width: 540px;
-  margin: 30px auto 0; 
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 240, 255, 0.15);
+  margin: 10px auto 0;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.15);
   color: #e5e7eb;
+  background: rgba(255,255,255,0.02);
+  backdrop-filter: blur(8px);
 }
 
 .about-text h2 {
@@ -54,85 +75,93 @@
 
 .about-game {
   width: 100%;
-  max-width: 400px;
+  max-width: 480px;
   margin: 10px auto;
   text-align: center;
   position: relative;
+
+  background: linear-gradient(145deg, #050816, #0a0f2c);
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid rgba(0,240,255,0.2);
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.15);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
 }
 
-/* ===== TOP BAR (DIFICULDADE + TEMA) ===== */
+.about-game::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top, rgba(0,240,255,0.15), transparent 70%);
+  pointer-events: none;
+}
+
+/* ===== TOP ===== */
+
 .game-top {
   display: flex;
   gap: 12px;
-  justify-content: space-between;
   margin-bottom: 12px;
 }
 
-/* ===== BOTÕES / SELECTS ===== */
 .game-top select {
+  flex: 1;
+  text-align: center;
   background: #050816;
   color: #e5e7eb;
   border: 2px solid var(--glow);
   padding: 8px 14px;
   border-radius: 10px;
-  font-size: 0.95rem;
   cursor: pointer;
   box-shadow: 0 0 12px rgba(0, 240, 255, 0.35);
-  transition: all 0.3s ease;
-}
-
-/* =========================
-   BOTÕES DO JOGO
-========================= */
-.game-buttons {
-  display: flex; 
-  gap: 12px; 
-  justify-content: center; 
-  flex-wrap: wrap;  
-  margin-top: 10px;
-}
-
-.game-buttons button {
-  background: #111;
-  border: 2px solid var(--glow);
-  color: var(--glow);
-  font-size: 16px;
-  padding: 8px 14px;
-  border-radius: 10px;
-  cursor: pointer;
-  box-shadow: 0 0 10px var(--glow);
   transition: 0.3s;
-}
-
-.game-buttons button:hover {
-  background: var(--glow);
-  color: #000;
-}
-
-/* ===== RESPONSIVO ===== */
-@media (max-width: 500px) {
-  .game-buttons {
-    flex-direction: column;
-    align-items: center; 
-    gap: 8px;  
-  }
+  appearance: none;
+  font-weight: 500;
 }
 
 .game-top select:hover {
   background: var(--glow);
   color: #000;
-  box-shadow: 0 0 18px var(--glow);
 }
 
-.game-top select:focus {
-  outline: none;
-  box-shadow: 0 0 22px var(--glow);
+/* ===== BOTÕES ===== */
+
+.game-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.game-buttons button {
+  flex: 1;
+  min-width: 120px;
+  background: linear-gradient(135deg, var(--glow), #1976d2);
+  border: none;
+  color: #000;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 15px var(--glow);
+  transition: 0.3s;
+}
+
+.game-buttons button:hover {
+  transform: translateY(-2px) scale(1.03);
+}
+
+.game-buttons button:active {
+  transform: scale(0.92);
+  box-shadow: 0 0 5px var(--glow);
 }
 
 /* ===== CANVAS ===== */
+
 #mazeCanvas {
   width: 100%;
-  max-width: 480px;
+  max-width: 400px;
   aspect-ratio: 12 / 9;
   background: #050816;
   border-radius: 15px;
@@ -141,35 +170,17 @@
 }
 
 /* ===== INFO ===== */
+
 .game-info {
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-}
-
-.game-info button {
-  background: #111;
-   padding:10px 18px;
-  margin:5px;
-  border: 2px solid var(--glow);
-  color: var(--glow);
-  font-size: 16px;
-  padding: 8px 14px;
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: rgba(240, 235, 235, 0.09);
   border-radius: 10px;
-  cursor: pointer;
-  box-shadow: 0 0 10px var(--glow);
-  transition: 0.3s;
+  font-size: 0.9rem;
 }
 
+/* ===== MOBILE CONTROLS ===== */
 
-.game-info button:hover {
-  background: var(--glow);
-  color: #000;
-}
-
-/* ===== CONTROLES MOBILE ===== */
 .mobile-controls {
   margin-top: 15px;
 }
@@ -183,53 +194,85 @@
   margin: 5px;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 0 10px var(--glow);
-  transition: 0.3s;
 }
 
-.mobile-controls button:hover {
-  background: var(--glow);
-  color: #000;
-}
+/* =========================
+   VITÓRIA
+========================= */
 
-/* ===== VITÓRIA ===== */
 .victory {
-  display: none;
   position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.85);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+
+  width: 280px;
+  max-width: 90%;
+
+  background: rgba(0,0,0,0.95);
+  backdrop-filter: blur(8px);
   color: white;
+
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  animation: pop 0.6s ease;
+
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+
+  box-shadow: 0 0 25px var(--glow);
+  border: 1px solid var(--glow);
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
 }
 
 .victory.show {
-  display: flex;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+  animation: popIn 0.4s ease;
 }
 
-@keyframes pop {
-  from { transform: scale(0.8); opacity: 0; }
-  to   { transform: scale(1); opacity: 1; }
+@keyframes popIn {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+}
+
+.victory h2 {
+  font-size: 2rem;
+  color: var(--glow);
+  text-shadow: 0 0 15px var(--glow);
+}
+
+.victory button {
+  margin-top: 12px;
+  background: linear-gradient(135deg, var(--glow), #1976d2);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
 }
 
 /* ===== RANKING ===== */
+
 .ranking {
   margin-top: 20px;
   color: #cbd5f5;
 }
 
-/* =========================
-   TECNOLOGIAS
-========================= */
-
-.tech-title {
-  color: #e5e7eb;
-  font-size: 1.2rem;
-  margin-top: 10px;
-  text-align: center;
-}
+/* ===== TECNOLOGIAS ===== */
 
 .tech-icons {
   display: flex;
@@ -239,33 +282,24 @@
 }
 
 .tech-icons img {
-  transition: transform 0.3s ease, filter 0.3s ease;
-  cursor: pointer;
+  border-radius: 8px;
+  background: rgba(217, 212, 212, 0.05);
+  padding: 4px;
 }
 
-.tech-icons img:hover {
-  transform: scale(1.08);
-  filter: brightness(1.15);
+.tech-title {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(255,255,255,0.6);
 }
 
-/* =========================
-   TEMAS
-========================= */
-
-:root {
-  --wall: #001f3f;
-  --path: #050816;
-  --goal: #00f0ff;
-  --glow: #00f0ff;
-}
+/* ===== TEMAS ===== */
 
 .theme-green {
-  --goal: #00ff99;
   --glow: #00ff99;
 }
 
 .theme-purple {
-  --goal: #a855f7;
   --glow: #a855f7;
 }
 
@@ -280,12 +314,72 @@
   }
 }
 
-@media (max-width: 600px) {
-  .game-top {
-    flex-direction: column;
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr; 
   }
 
-  .about-text p {
-    text-align: justify;
+  .about-media,
+  .about-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-grid {
+    gap: 20px;
+  }
+
+  .about-game {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  #mazeCanvas {
+    width: 100%;
+    height: auto;
+  }
+
+  .victory {
+    width: 90%;
+    max-width: 260px;
+    padding: 15px;
+  }
+
+  .victory h2 {
+    font-size: 1.4rem;
+  }
+
+  .victory p {
+    font-size: 0.9rem;
+  }
+
+  .victory button {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .victory {
+    max-width: 180px;
+    padding: 10px;
+  }
+
+  .victory h2 {
+    font-size: 1.1rem;
+  }
+
+  .victory p {
+    font-size: 0.8rem;
+  }
+
+  .victory button {
+    font-size: 0.8rem;
+    padding: 6px;
   }
 }
