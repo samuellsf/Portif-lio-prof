@@ -1,0 +1,99 @@
+<section class="about">
+  <div class="about-grid">
+
+    <div class="about-media">
+      <div class="about-game">
+
+        <div class="game-top">
+          <select id="difficulty" onchange="changeDifficulty()">
+            <option value="easy">Fácil</option>
+            <option value="medium">Médio</option>
+            <option value="hard">Difícil</option>
+          </select>
+
+          <select id="theme" onchange="changeTheme()">
+            <option value="neon">Neon</option>
+            <option value="green">Verde</option>
+            <option value="purple">Roxo</option>
+          </select>
+        </div>
+
+        <canvas id="mazeCanvas"></canvas>
+
+    
+        <div class="mobile-controls">
+          <button onclick="move('up')">⬆</button>
+          <div>
+            <button onclick="move('left')">⬅</button>
+            <button onclick="move('down')">⬇</button>
+            <button onclick="move('right')">➡</button>
+          </div>
+        </div>
+
+   
+        <div class="game-info">
+          <span id="status">um joguinho pra passar o tempo 🎮</span>
+          <span>⏱️ <strong id="time">0</strong>s</span>
+          <span>🎯 <strong id="moves">0</strong></span>
+        </div>
+
+        <div class="game-buttons">
+          <button onclick="startGame()">🎮 Iniciar</button>
+          <button onclick="newMaze()">Novo Labirinto</button>
+        <button class="btn-restart" onclick="restartMazeAndClearRanking()">
+  Reiniciar Jogo
+</button>
+        </div>
+
+  
+        <div id="victory" class="victory">
+          <h2>🎉 Vitória!</h2>
+          <p id="victoryText"></p>
+          <button onclick="restartMaze()">Jogar novamente</button>
+        </div>
+
+
+        <div class="ranking">
+          <h3>🏅 Ranking</h3>
+          <ol id="rankingList"></ol>
+        </div>
+
+      </div>
+    </div>
+
+   
+    <div class="about-text">
+      <h2>👨‍💻 Sobre mim</h2>
+
+      <p>
+        🎓 Olá! Sou <strong>Samuel</strong>,Graduado em Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento web e boas práticas de mercado.
+        <br><br>
+        Participei do projeto Instituto LLAM Tecnologia do Brasil (2023–2025), onde atuei com modelagem de dados, SQL/MySQL, desenvolvimento web (HTML, CSS, JavaScript, React e Java), versionamento com Git e metodologias ágeis (Scrum).
+        <br><br>
+        Atualmente estou em transição para a área de tecnologia, buscando minha primeira oportunidade como desenvolvedor, aplicando na prática conhecimentos em front-end e back-end para criar soluções modernas e eficientes.
+      </p>
+
+      <h3 class="tech-title">💻 Ferramentas e Tecnologias</h3>
+
+      <div class="tech-icons">
+        <img alt="HTML" src="https://img.shields.io/badge/HTML5-E44D26?style=for-the-badge&logo=html5&logoColor=white"/>
+        <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+        <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7E018?style=for-the-badge&logo=javascript&logoColor=black"/>
+        <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+        <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+        <img alt="MySQL" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
+        <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+        <img alt="Git" src="https://img.shields.io/badge/GIT-F1502F?style=for-the-badge&logo=git&logoColor=white"/>
+        <img alt="GitLab" src="https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=gitlab&logoColor=white"/>
+        <img alt="Redmine" src="https://img.shields.io/badge/Redmine-B32024?style=for-the-badge&logo=redmine&logoColor=white"/>
+        <img alt="Linux" src="https://img.shields.io/badge/Linux-333?style=for-the-badge&logo=linux&logoColor=white"/>
+        <img alt="Eclipse" src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"/>
+        <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white"/>
+        <img alt="Canva" src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
+        <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-0078D7?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+      </div>
+
+    </div>
+
+  </div>
+</section>
