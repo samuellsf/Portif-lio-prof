@@ -1,0 +1,184 @@
+[
+  {
+    "title": "Acelerador de Carreira com Power BI",
+    "image": "assets/imagens/certificates/acelerador-de-carreira-power-Bi.png",
+    "learned": "Criação de dashboards, modelagem de dados e visualização estratégica com Power BI."
+  },
+  {
+    "title": "Análise de Dados com Python",
+    "image": "assets/imagens/certificates/Análise-de-Dados-com-Python.png",
+    "learned": "Fundamentos da análise de dados utilizando Python e bibliotecas como Pandas."
+  },
+  {
+    "title": "Análise de Investimentos",
+    "image": "assets/imagens/certificates/analise-de-investimento.png",
+    "learned": "Avaliação de investimentos, indicadores financeiros e análise de viabilidade."
+  },
+  {
+    "title": "Autocoaching",
+    "image": "assets/imagens/certificates/AUTOCOACHING.png",
+    "learned": "Autoconhecimento, metas pessoais e planejamento de desenvolvimento."
+  },
+  {
+    "title": "Banco de Dados",
+    "image": "assets/imagens/certificates/BANCO-DE-DADOS.png",
+    "learned": "Fundamentos de banco de dados e modelagem relacional."
+  },
+  {
+    "title": "Capital de Giro e Análise Financeira",
+    "image": "assets/imagens/certificates/CAPITAL-DE-GIRO-E-ANALISE-FINANCEIRA.png",
+    "learned": "Fluxo de caixa, indicadores financeiros e gestão empresarial."
+  },
+  {
+    "title": "Coaching e Liderança",
+    "image": "assets/imagens/certificates/COACHING-E-LIDERANÇA.png",
+    "learned": "Liderança, desenvolvimento de equipes e inteligência emocional."
+  },
+  {
+    "title": "Comunicação Assertiva e Negociação",
+    "image": "assets/imagens/certificates/COMUNICAÇÃO-ASSERTIVA-E-NEGOCIAÇÃO.png",
+    "learned": "Comunicação clara, escuta ativa e técnicas de negociação."
+  },
+  {
+    "title": "Configuração do Ambiente de Desenvolvimento Java",
+    "image": "assets/imagens/certificates/Configurando-o-ambiente-de-desenvolvimento-java.png",
+    "learned": "Instalação e configuração do ambiente Java e ferramentas essenciais."
+  },
+  {
+    "title": "Banco de Dados SQL",
+    "image": "assets/imagens/certificates/Curso-Banco-de-Dados-SQL.jpg",
+    "learned": "Consultas SQL, JOINs e manipulação de dados relacionais."
+  },
+  {
+    "title": "Dev Quest",
+    "image": "assets/imagens/certificates/dev-quest.png",
+    "learned": "Fundamentos de HTML, CSS e JavaScript."
+  },
+  {
+    "title": "Espanhol – Vocabulário Essencial",
+    "image": "assets/imagens/certificates/ESPANHOL-VOCABULÁRIO-ESSENCIAL.png",
+    "learned": "Vocabulário essencial da língua espanhola."
+  },
+  {
+    "title": "Estruturas de Dados em Python",
+    "image": "assets/imagens/certificates/ESTRUTURAS-DE-DADOS-EM-PYTHON.png",
+    "learned": "Listas, dicionários, tuplas e conjuntos."
+  },
+  {
+    "title": "Excel",
+    "image": "assets/imagens/certificates/exel.png",
+    "learned": "Funções, planilhas e análise básica de dados."
+  },
+  {
+    "title": "Finanças Pessoais e Investimentos",
+    "image": "assets/imagens/certificates/FINANÇAS-PESSOAIS-E-INVESTIMENTOS.png",
+    "learned": "Planejamento financeiro e organização de investimentos."
+  },
+  {
+    "title": "Fundamentos do Scrum",
+    "image": "assets/imagens/certificates/Fundamentos-do-Scrum.jpg",
+    "learned": "Papéis, eventos e artefatos do Scrum."
+  },
+  {
+    "title": "Gestão de Metas e Indicadores de Performance",
+    "image": "assets/imagens/certificates/GESTÃO-DE-METAS-E-INDICADORES-DE-PERFORMANCE.png",
+    "learned": "Definição de metas SMART e KPIs."
+  },
+  {
+    "title": "Imersão Dev",
+    "image": "assets/imagens/certificates/imersão-dev.png",
+    "learned": "Desenvolvimento web com HTML, CSS e JavaScript."
+  },
+  {
+    "title": "Inteligência Emocional – 5 Pilares",
+    "image": "assets/imagens/certificates/Inteligência-Emocional-5-Pilares-para-sucesso-profissional.png",
+    "learned": "Autoconsciência, empatia e habilidades sociais."
+  },
+  {
+    "title": "Introdução à Análise de Dados com Python",
+    "image": "assets/imagens/certificates/introdução-analise-de-dados-com-python.png",
+    "learned": "Manipulação e limpeza de dados com Pandas."
+  },
+  {
+    "title": "Introdução ao Sistema Operacional Linux",
+    "image": "assets/imagens/certificates/Introdução-ao-Sistema-Operacional-Linux.png",
+    "learned": "Comandos básicos e navegação no Linux."
+  },
+  {
+    "title": "Introdução a Scrum e Kanban",
+    "image": "assets/imagens/certificates/Introdução-scrum-kanban-Curso-express.png",
+    "learned": "Mentalidade ágil e gestão de tarefas."
+  },
+  {
+    "title": "Java SE – Polimorfismo e POO",
+    "image": "assets/imagens/certificates/Java-SE-Polimorfismo-Projeto-e-Design-Orientados-a-Objetos.png",
+    "learned": "Herança, polimorfismo e boas práticas em Java."
+  },
+  {
+    "title": "Liderança",
+    "image": "assets/imagens/certificates/liderança.png",
+    "learned": "Desenvolvimento de liderança e gestão de equipes."
+  },
+  {
+    "title": "Liderança e Desenvolvimento de Equipes",
+    "image": "assets/imagens/certificates/LIDERANÇA-E-DESENVOLVIME-TO-DE-EQUIPES.png",
+    "learned": "Gestão de pessoas e formação de times de alta performance."
+  },
+  {
+    "title": "Língua Espanhola I",
+    "image": "assets/imagens/certificates/LÍNGUA-ESPANHOLA-I.png",
+    "learned": "Gramática básica e conversação."
+  },
+  {
+    "title": "Língua Espanhola II",
+    "image": "assets/imagens/certificates/LÍNGUA-ESPANHOLA-II.png",
+    "learned": "Conversação intermediária e leitura."
+  },
+  {
+    "title": "Mercado de Capitais",
+    "image": "assets/imagens/certificates/MERCADO-DE-CAPITAIS.png",
+    "learned": "Funcionamento da bolsa e investimentos."
+  },
+  {
+    "title": "Modelos de Gestão",
+    "image": "assets/imagens/certificates/MODELOS-DE-GESTAO.png",
+    "learned": "Metodologias tradicionais e ágeis."
+  },
+  {
+    "title": "Os Fundamentos do Scrum",
+    "image": "assets/imagens/certificates/Os-Fundamentos-do-Scrum.png",
+    "learned": "Aplicação prática do Scrum."
+  },
+  {
+    "title": "Semana do Zero ao Programador",
+    "image": "assets/imagens/certificates/semana-do-zero-ao-programador.png",
+    "learned": "Projetos práticos e lógica de programação."
+  },
+  {
+    "title": "Shark Evolution – Desenvolvimento Web",
+    "image": "assets/imagens/certificates/shark-evolution.jpeg",
+    "learned": "Aplicações web com JavaScript moderno."
+  },
+  {
+    "title": "Terminal Linux",
+    "image": "assets/imagens/certificates/Terminal-Linux.png",
+    "learned": "Uso de comandos e administração básica."
+  },
+  {
+    "title": "Trilha Digital Cloders – Engenharia de Dados",
+    "image": "assets/imagens/certificates/trilha-digital-cloders-engelharia-de-dados.png",
+    "learned": "Formação em programação e engenharia de dados."
+  },
+  { 
+  
+  "title": "Gestão de Carreira",
+  "image": "assets/imagens/certificates/GESTÃO-DE-CARREIRA.png",
+  "learned": "Planejamento estratégico de carreira, definição de metas profissionais, posicionamento no mercado, desenvolvimento contínuo de competências e construção de marca pessoal."
+},
+{
+  "title": "Lógica de Programação: começando a desenvolver seus primeiros programas",
+  "image": "assets/imagens/certificates/Lógica-de-Programação.png",
+  "learned": "Fundamentos de lógica de programação, uso do Portugol Studio, entrada e saída de dados, variáveis, operadores aritméticos e desenvolvimento dos primeiros algoritmos."
+}
+]
+

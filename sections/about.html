@@ -1,0 +1,112 @@
+<section class="about">
+  <div class="about-grid">
+
+    <!-- JOGO DO LABIRINTO COMENTADO TEMPORARIAMENTE
+    <div class="about-media">
+      <div class="about-game">
+
+        <div class="game-top">
+          <select id="difficulty" onchange="changeDifficulty()">
+            <option value="easy">Fácil</option>
+            <option value="medium">Médio</option>
+            <option value="hard">Difícil</option>
+          </select>
+
+          <select id="theme" onchange="changeTheme()">
+            <option value="neon">Neon</option>
+            <option value="green">Verde</option>
+            <option value="purple">Roxo</option>
+          </select>
+        </div>
+
+        <canvas id="mazeCanvas"></canvas>
+
+        <div class="mobile-controls">
+          <button onclick="move('up')">⬆</button>
+          <div>
+            <button onclick="move('left')">⬅</button>
+            <button onclick="move('down')">⬇</button>
+            <button onclick="move('right')">➡</button>
+          </div>
+        </div>
+
+        <div class="game-info">
+          <span id="status">um joguinho pra passar o tempo 🎮</span>
+          <span>⏱️ <strong id="time">0</strong>s</span>
+          <span>🎯 <strong id="moves">0</strong></span>
+        </div>
+
+        <div class="game-buttons">
+          <button onclick="startGame()">🎮 Iniciar</button>
+          <button onclick="newMaze()">Novo Labirinto</button>
+          <button class="btn-restart" onclick="restartMazeAndClearRanking()">
+            Reiniciar Jogo
+          </button>
+        </div>
+
+        <div id="victory" class="victory">
+          <h2>🎉 Vitória!</h2>
+          <p id="victoryText"></p>
+          <button onclick="restartMaze()">Jogar novamente</button>
+        </div>
+
+        <div class="ranking">
+          <h3>🏅 Ranking</h3>
+          <ol id="rankingList"></ol>
+        </div>
+
+      </div>
+    </div>
+    -->
+
+    <!-- BLOCO 1: SOBRE MIM -->
+    <div class="about-text">
+      <h2>👨‍💻 Sobre mim</h2>
+
+<p>
+  Olá! Sou <strong>Samuel Ferreira</strong>, graduado em <strong>Análise e Desenvolvimento de Sistemas</strong> e pós-graduando (MBA) em <strong>Logística e Supply Chain Management</strong>. Combino visão analítica de operações e processos com engenharia de software para construir aplicações modernas, escaláveis e orientadas a resultados.
+</p>
+
+<p>
+  Entre 2023 e 2025, atuei como desenvolvedor na residência técnica do <strong>Instituto LLAM Tecnologia do Brasil</strong> (Projeto Pessoa Legal), participando do ciclo completo de software: levantamento de requisitos, modelagem de dados (ER e padrões CERIF), construção de microsserviços e APIs RESTful com <strong>Java (Spring Boot)</strong>, interfaces web responsivas com <strong>HTML5, CSS3, JavaScript e React.js</strong>, além de versionamento e code review com Git/GitLab sob metodologias ágeis (Scrum).
+</p>
+
+<p>
+  Minha trajetória na área de logística fortaleceu minha capacidade de diagnóstico, organização e resolução de problemas complexos — habilidades que aplico diretamente no desenvolvimento de sistemas que eliminam gargalos reais de negócio. Atualmente, também venho expandindo meus conhecimentos no ecossistema <strong>ServiceNow</strong> (App Engine Studio, Flow Designer e integrações REST).
+</p>
+
+<p>
+  Busco oportunidades como <strong>Desenvolvedor Júnior (Front-end, Back-end) ou Analista de TI</strong> para colaborar em equipes de tecnologia, entregar código limpo e evoluir continuamente.
+</p>
+
+<blockquote>
+  "Acredito que a tecnologia transforma ideias em soluções práticas. Meu objetivo é desenvolver sistemas que gerem valor real para pessoas e empresas."
+</blockquote>
+    </div>
+
+    <!-- BLOCO 2: FERRAMENTAS E TECNOLOGIAS -->
+    <div class="about-tech">
+      <h3 class="tech-title">💻 Ferramentas e Tecnologias</h3>
+
+      <div class="tech-icons">
+        <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E44D26?style=for-the-badge&logo=html5&logoColor=white"/>
+        <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+        <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7E018?style=for-the-badge&logo=javascript&logoColor=black"/>
+        <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+        <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+        <img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
+        <img alt="MySQL" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
+        <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+        <img alt="Git" src="https://img.shields.io/badge/GIT-F1502F?style=for-the-badge&logo=git&logoColor=white"/>
+        <img alt="GitLab" src="https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=gitlab&logoColor=white"/>
+        <img alt="Redmine" src="https://img.shields.io/badge/Redmine-B32024?style=for-the-badge&logo=redmine&logoColor=white"/>
+        <img alt="Linux" src="https://img.shields.io/badge/Linux-333?style=for-the-badge&logo=linux&logoColor=white"/>
+        <img alt="Eclipse" src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"/>
+        <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white"/>
+        <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-0078D7?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+        <img alt="Canva" src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
+      </div>
+    </div>
+
+  </div>
+</section>
