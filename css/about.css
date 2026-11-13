@@ -32,11 +32,7 @@
   align-items: start;
 }
 
-@media (max-width: 900px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-}
+
 
 button:active {
   transform: scale(0.95);
